@@ -414,6 +414,9 @@ create policy "Registrant, organizer and owner update registrations" on public.r
   );
 create policy "Owner deletes registrations" on public.registrations
   for delete using (public.is_owner());
+-- Lets a user clear their cancelled registration so they can register again.
+create policy "Users delete their cancelled registrations" on public.registrations
+  for delete using (user_id = auth.uid() and status = 'cancelled');
 
 -- ---------------------------------------------------------------------------
 -- Storage: public bucket for event / trek cover images.
