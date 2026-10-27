@@ -4,7 +4,10 @@ import { requireSession } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { formatDate, formatDateRange } from "@/lib/format";
 import { ActionForm, SubmitButton } from "@/components/dashboard/ActionForm";
-import { updateRegistration } from "../../../actions";
+import { PaymentPill } from "@/components/dashboard/Pills";
+import { isPaymentsConfigured } from "@/lib/razorpay";
+import { formatINR } from "@/lib/format";
+import { refundRegistration, updateRegistration } from "../../../actions";
 import type { Registration, RegistrationStatus, TrekEvent } from "@/lib/types";
 
 const STATUSES: RegistrationStatus[] = ["pending", "confirmed", "waitlisted", "rejected", "cancelled"];
@@ -22,6 +25,7 @@ export default async function EventRegistrationsPage({ params }: { params: Promi
   const regs = (data ?? []) as Registration[];
   const count = (s: RegistrationStatus) => regs.filter((r) => r.status === s).length;
   const fields = event.form_fields ?? [];
+  const collected = regs.reduce((sum, r) => sum + (r.payment_status === "paid" || r.payment_status === "unpaid" ? r.amount_paid_inr : 0), 0);
 
   const answer = (r: Registration, fid: string) => {
     const v = r.answers?.[fid];
@@ -43,6 +47,7 @@ export default async function EventRegistrationsPage({ params }: { params: Promi
 
       <div className="mt-5 flex flex-wrap gap-2 text-sm">
         <span className="rounded-full bg-paper px-3 py-1 font-medium shadow-sm">Total {regs.length}</span>
+        <span className="rounded-full bg-sage-100 px-3 py-1 font-medium text-sage-700 shadow-sm">{formatINR(collected)} collected online</span>
         {STATUSES.map((s) => (
           <span key={s} className="rounded-full bg-paper px-3 py-1 shadow-sm">{count(s)} {s}</span>
         ))}
@@ -55,6 +60,7 @@ export default async function EventRegistrationsPage({ params }: { params: Promi
               <th className="px-3 py-3">Name</th>
               <th className="px-3 py-3">Contact</th>
               <th className="px-3 py-3">People</th>
+              <th className="px-3 py-3">Payment</th>
               {fields.map((f) => <th key={f.id} className="px-3 py-3">{f.label}</th>)}
               <th className="px-3 py-3">Registered</th>
               <th className="px-3 py-3">Status &amp; notes</th>
@@ -69,6 +75,19 @@ export default async function EventRegistrationsPage({ params }: { params: Promi
                   <div>{r.phone}</div>
                 </td>
                 <td className="px-3 py-3">{r.participants}</td>
+                <td className="px-3 py-3">
+                  <PaymentPill status={r.payment_status} due={r.amount_due_inr} paid={r.amount_paid_inr} />
+                  {isPaymentsConfigured && r.payment_status === "paid" && (
+                    <ActionForm
+                      action={refundRegistration}
+                      confirm={`Refund ${formatINR(r.amount_paid_inr)} to ${r.full_name} and cancel their registration?`}
+                      className="mt-2"
+                    >
+                      <input type="hidden" name="id" value={r.id} />
+                      <SubmitButton className="chip" pendingLabel="Refunding…">Refund</SubmitButton>
+                    </ActionForm>
+                  )}
+                </td>
                 {fields.map((f) => <td key={f.id} className="px-3 py-3 text-muted">{answer(r, f.id)}</td>)}
                 <td className="whitespace-nowrap px-3 py-3 text-muted">{formatDate(r.created_at)}</td>
                 <td className="px-3 py-3">
@@ -84,7 +103,7 @@ export default async function EventRegistrationsPage({ params }: { params: Promi
               </tr>
             ))}
             {regs.length === 0 && (
-              <tr><td colSpan={5 + fields.length} className="px-4 py-8 text-center text-muted">No registrations yet.</td></tr>
+              <tr><td colSpan={6 + fields.length} className="px-4 py-8 text-center text-muted">No registrations yet.</td></tr>
             )}
           </tbody>
         </table>

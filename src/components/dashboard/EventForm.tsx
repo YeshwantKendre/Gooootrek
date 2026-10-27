@@ -73,6 +73,7 @@ export function EventForm({
   const [meetingPoint, setMeetingPoint] = useState(event?.meeting_point ?? "");
   const [city, setCity] = useState(event?.city ?? "");
   const [price, setPrice] = useState(String(event?.price_inr ?? 0));
+  const [advance, setAdvance] = useState(String(event?.advance_percent ?? 100));
   const [seats, setSeats] = useState(String(event?.total_seats ?? 20));
   const [regOpen, setRegOpen] = useState(event?.registration_open ?? true);
   const [opensAt, setOpensAt] = useState(toLocalInput(event?.registration_opens_at ?? null));
@@ -148,6 +149,7 @@ export function EventForm({
       meeting_point: meetingPoint,
       city,
       price_inr: Number(price),
+      advance_percent: Number(advance),
       total_seats: Number(seats),
       registration_open: regOpen,
       registration_opens_at: fromLocalInput(opensAt),
@@ -250,6 +252,20 @@ export function EventForm({
           <div>
             <label htmlFor="price" className="label">Price per person (₹)</label>
             <input id="price" type="number" min={0} className="input" value={price} onChange={(e) => setPrice(e.target.value)} />
+          </div>
+          <div>
+            <label htmlFor="advance" className="label">Collect online at booking</label>
+            <select id="advance" className="input" value={advance} onChange={(e) => setAdvance(e.target.value)}>
+              <option value="100">Full amount (100%)</option>
+              {[50, 30, 25, 20, 10].map((p) => (
+                <option key={p} value={p}>{p}% advance</option>
+              ))}
+            </select>
+            {Number(price) > 0 && Number(advance) < 100 && (
+              <p className="mt-1 text-xs text-muted">
+                Trekkers pay ₹{Math.ceil((Number(price) * Number(advance)) / 100).toLocaleString("en-IN")} per person online; you collect the rest.
+              </p>
+            )}
           </div>
           <div>
             <label htmlFor="seats" className="label">Total seats</label>

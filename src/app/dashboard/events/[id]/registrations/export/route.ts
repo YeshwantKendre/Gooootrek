@@ -26,11 +26,11 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
   const regs = (data ?? []) as Registration[];
   const fields = event.form_fields ?? [];
 
-  const header = ["Name", "Email", "Phone", "Participants", "Status", "Registered at", "Notes", ...fields.map((f) => f.label)];
+  const header = ["Name", "Email", "Phone", "Participants", "Status", "Payment", "Amount due (INR)", "Paid online (INR)", "Registered at", "Notes", ...fields.map((f) => f.label)];
   const lines = [header.map(cell).join(",")];
   for (const r of regs) {
     lines.push(
-      [r.full_name, r.email, r.phone, r.participants, r.status, r.created_at, r.notes, ...fields.map((f) => r.answers?.[f.id])]
+      [r.full_name, r.email, r.phone, r.participants, r.status, r.payment_status, r.amount_due_inr, r.amount_paid_inr, r.created_at, r.notes, ...fields.map((f) => r.answers?.[f.id])]
         .map(cell)
         .join(","),
     );

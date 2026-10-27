@@ -5,8 +5,18 @@ import { useActionState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import { registerForEvent, cancelRegistration, type RegisterState } from "@/app/events/[id]/actions";
 import SupabaseNotice from "@/components/SupabaseNotice";
-import { STATUS_STYLES, capitalize } from "@/lib/format";
-import type { FormField, RegistrationStatus } from "@/lib/types";
+import PayButton from "@/components/payments/PayButton";
+import { STATUS_STYLES, capitalize, formatINR } from "@/lib/format";
+import type { FormField, PaymentStatus, RegistrationStatus } from "@/lib/types";
+
+export interface ExistingRegistration {
+  id: string;
+  status: RegistrationStatus;
+  participants: number;
+  payment_status: PaymentStatus;
+  amount_due_inr: number;
+  amount_paid_inr: number;
+}
 
 const initial: RegisterState = {};
 
@@ -17,10 +27,33 @@ interface Props {
   defaults: { full_name: string; email: string };
   seatsLeft: number;
   formFields: FormField[];
-  existing: { status: RegistrationStatus; participants: number } | null;
+  existing: ExistingRegistration | null;
+  paymentsEnabled: boolean;
 }
 
-export default function RegistrationForm({ eventId, configured, signedIn, defaults, seatsLeft, formFields, existing }: Props) {
+/** What to show for paying, given a registration's state. */
+function PaymentSection({ r, paymentsEnabled }: { r: ExistingRegistration; paymentsEnabled: boolean }) {
+  const owes = r.amount_due_inr - r.amount_paid_inr;
+  if (r.payment_status === "paid")
+    return <p className="rounded-xl bg-sage-50 px-3 py-2 text-sm text-sage-700">Paid {formatINR(r.amount_paid_inr)} online.</p>;
+  if (r.payment_status === "refunded")
+    return <p className="rounded-xl bg-sky-50 px-3 py-2 text-sm text-sky-700">Your payment of {formatINR(r.amount_paid_inr)} was refunded.</p>;
+  if (r.payment_status !== "unpaid" || owes <= 0 || (r.status !== "pending" && r.status !== "confirmed")) return null;
+  if (!paymentsEnabled)
+    return (
+      <p className="rounded-xl bg-butter-100 px-3 py-2 text-sm text-butter-700">
+        {formatINR(owes)} due. The organizer will share payment details with you.
+      </p>
+    );
+  return (
+    <div className="space-y-1.5">
+      <p className="text-sm text-muted">Pay {formatINR(owes)} to confirm your spot.</p>
+      <PayButton registrationId={r.id} amountInr={owes} />
+    </div>
+  );
+}
+
+export default function RegistrationForm({ eventId, configured, signedIn, defaults, seatsLeft, formFields, existing, paymentsEnabled }: Props) {
   const [state, action, pending] = useActionState(registerForEvent, initial);
 
   if (!configured) return <SupabaseNotice />;
@@ -53,6 +86,7 @@ export default function RegistrationForm({ eventId, configured, signedIn, defaul
                 ? "The organizer couldn't accommodate this request."
                 : "We'll keep you posted."}
         </p>
+        <PaymentSection r={existing} paymentsEnabled={paymentsEnabled} />
         {(existing.status === "pending" || existing.status === "confirmed" || existing.status === "waitlisted") && (
           <form action={cancelRegistration}>
             <input type="hidden" name="event_id" value={eventId} />
@@ -69,6 +103,11 @@ export default function RegistrationForm({ eventId, configured, signedIn, defaul
         <CheckCircle2 className="mb-1 h-6 w-6" aria-hidden="true" />
         <p className="font-semibold">{state.status === "waitlisted" ? "Added to waitlist" : "Registration received"}</p>
         <p className="mt-1">{state.message}</p>
+        {state.registration && (
+          <div className="mt-3">
+            <PaymentSection r={state.registration} paymentsEnabled={paymentsEnabled} />
+          </div>
+        )}
       </div>
     );
   }

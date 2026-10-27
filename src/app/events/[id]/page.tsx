@@ -9,7 +9,8 @@ import { getSession } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
 import { DIFFICULTY_STYLES, capitalize, formatDateRange, formatINR } from "@/lib/format";
-import type { RegistrationStatus } from "@/lib/types";
+import { isPaymentsConfigured } from "@/lib/razorpay";
+import type { ExistingRegistration } from "@/components/events/RegistrationForm";
 
 type Params = { params: Promise<{ id: string }> };
 
@@ -30,12 +31,12 @@ export default async function EventPage({ params }: Params) {
   if (!event) notFound();
 
   const session = await getSession();
-  let existing: { status: RegistrationStatus; participants: number } | null = null;
+  let existing: ExistingRegistration | null = null;
   if (session) {
     const supabase = await createClient();
     const { data } = await supabase
       .from("registrations")
-      .select("status, participants")
+      .select("id, status, participants, payment_status, amount_due_inr, amount_paid_inr")
       .eq("event_id", event.id)
       .eq("user_id", session.userId)
       .maybeSingle();
@@ -54,6 +55,11 @@ export default async function EventPage({ params }: Params) {
         <div>
           <p className="text-xs font-medium uppercase tracking-wide text-muted">Per person</p>
           <p className="text-2xl font-extrabold text-sage-700">{formatINR(event.price_inr)}</p>
+          {event.price_inr > 0 && event.advance_percent < 100 && (
+            <p className="text-xs text-muted">
+              {formatINR(Math.ceil((event.price_inr * event.advance_percent) / 100))} advance to book, rest to the organizer
+            </p>
+          )}
         </div>
         <p className="text-sm text-muted">{seatsLeft > 0 ? `${seatsLeft} seats left` : "Waitlist only"}</p>
       </div>
@@ -67,6 +73,7 @@ export default async function EventPage({ params }: Params) {
             seatsLeft={seatsLeft}
             formFields={event.form_fields ?? []}
             existing={existing}
+            paymentsEnabled={isPaymentsConfigured}
           />
         ) : (
           <p className="rounded-xl bg-butter-100 px-3 py-3 text-sm font-medium text-butter-700" role="status">

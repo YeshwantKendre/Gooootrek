@@ -4,6 +4,7 @@ export type Role = "owner" | "organizer" | "customer";
 export type Difficulty = "easy" | "moderate" | "difficult" | "challenging";
 export type EventStatus = "draft" | "published" | "cancelled" | "completed";
 export type RegistrationStatus = "pending" | "confirmed" | "waitlisted" | "cancelled" | "rejected";
+export type PaymentStatus = "not_required" | "unpaid" | "paid" | "refunded";
 export type Season = "spring" | "summer" | "monsoon" | "autumn" | "winter";
 
 export interface Profile {
@@ -74,6 +75,8 @@ export interface TrekEvent {
   meeting_point: string | null;
   city: string | null;
   price_inr: number;
+  /** Share of the price collected online at booking (10–100). */
+  advance_percent: number;
   total_seats: number;
   seats_booked: number;
   registration_open: boolean;
@@ -108,6 +111,10 @@ export interface Registration {
   participants: number;
   answers: Record<string, string | number | boolean>;
   status: RegistrationStatus;
+  payment_status: PaymentStatus;
+  /** Computed by the database: price × participants × advance_percent. */
+  amount_due_inr: number;
+  amount_paid_inr: number;
   notes: string | null;
   created_at: string;
   updated_at: string;

@@ -3,7 +3,10 @@
 import { revalidatePath } from "next/cache";
 import { requireSession } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { after } from "next/server";
 import { getEventById } from "@/lib/events";
+import { emails } from "@/lib/email";
+import type { ExistingRegistration } from "@/components/events/RegistrationForm";
 import type { RegistrationStatus } from "@/lib/types";
 
 export interface RegisterState {
@@ -11,6 +14,7 @@ export interface RegisterState {
   message?: string;
   error?: string;
   status?: RegistrationStatus;
+  registration?: ExistingRegistration;
 }
 
 export async function registerForEvent(_prev: RegisterState, formData: FormData): Promise<RegisterState> {
@@ -67,8 +71,8 @@ export async function registerForEvent(_prev: RegisterState, formData: FormData)
   const { data, error } = await supabase
     .from("registrations")
     .insert({ event_id: event.id, user_id: session.userId, full_name, email, phone, participants, answers })
-    .select("status")
-    .single();
+    .select("id, status, participants, payment_status, amount_due_inr, amount_paid_inr")
+    .single<ExistingRegistration>();
 
   if (error) {
     if (error.code === "23505") return { error: "You're already registered for this batch." };
@@ -78,14 +82,19 @@ export async function registerForEvent(_prev: RegisterState, formData: FormData)
   revalidatePath(`/events/${event.id}`);
   revalidatePath("/events");
   revalidatePath("/dashboard");
-  const status = (data?.status ?? "pending") as RegistrationStatus;
+  const status = data.status;
+  const emailReg = { ...data, full_name, email, phone };
+  after(() => Promise.all([emails.registrationReceived(event, emailReg), emails.newRegistrationForOrganizer(event, emailReg)]));
   return {
     ok: true,
     status,
+    registration: data,
     message:
       status === "waitlisted"
         ? "This batch is full, so you're on the waitlist. The organizer will reach out if a seat opens up."
-        : "You're registered! The organizer will confirm your spot soon.",
+        : data.payment_status === "unpaid"
+          ? "Your spot is reserved. Complete the payment to confirm it."
+          : "You're registered! The organizer will confirm your spot soon.",
   };
 }
 
@@ -94,11 +103,16 @@ export async function cancelRegistration(formData: FormData) {
   const eventId = String(formData.get("event_id") ?? "");
   if (!eventId) return;
   const supabase = await createClient();
-  await supabase
+  const { data } = await supabase
     .from("registrations")
     .update({ status: "cancelled" })
     .eq("event_id", eventId)
-    .eq("user_id", session.userId);
+    .eq("user_id", session.userId)
+    .in("status", ["pending", "confirmed", "waitlisted"])
+    .select("full_name, email, participants, status, amount_due_inr, amount_paid_inr")
+    .maybeSingle();
+  const event = data ? await getEventById(eventId) : null;
+  if (data && event) after(() => emails.cancelledForOrganizer(event, data));
   revalidatePath(`/events/${eventId}`);
   revalidatePath("/events");
   revalidatePath("/dashboard");

@@ -3,7 +3,9 @@ import { requireSession } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { formatDateRange } from "@/lib/format";
 import { ActionForm, SubmitButton } from "@/components/dashboard/ActionForm";
-import { EventStatusPill, RegStatusPill } from "@/components/dashboard/Pills";
+import { EventStatusPill, PaymentPill, RegStatusPill } from "@/components/dashboard/Pills";
+import PayButton from "@/components/payments/PayButton";
+import { isPaymentsConfigured } from "@/lib/razorpay";
 import { cancelRegistration } from "../actions";
 import type { EventStatus, Registration } from "@/lib/types";
 
@@ -49,15 +51,31 @@ export default async function MyTreksPage() {
                 )}
                 <div className="mt-2 flex flex-wrap gap-2">
                   <RegStatusPill status={r.status} />
+                  <PaymentPill status={r.payment_status} due={r.amount_due_inr} paid={r.amount_paid_inr} />
                   {r.event && r.event.status !== "published" && <EventStatusPill status={r.event.status} />}
                 </div>
               </div>
-              {["pending", "confirmed", "waitlisted"].includes(r.status) && (
-                <ActionForm action={cancelRegistration} confirm="Cancel this registration?" className="shrink-0">
-                  <input type="hidden" name="id" value={r.id} />
-                  <SubmitButton className="btn-secondary" pendingLabel="Cancelling…">Cancel registration</SubmitButton>
-                </ActionForm>
-              )}
+              <div className="flex shrink-0 flex-col gap-2 sm:items-end">
+                {isPaymentsConfigured &&
+                  r.payment_status === "unpaid" &&
+                  (r.status === "pending" || r.status === "confirmed") &&
+                  r.amount_due_inr > r.amount_paid_inr && (
+                    <PayButton registrationId={r.id} amountInr={r.amount_due_inr - r.amount_paid_inr} className="btn-primary" />
+                  )}
+                {["pending", "confirmed", "waitlisted"].includes(r.status) && (
+                  <ActionForm
+                    action={cancelRegistration}
+                    confirm={
+                      r.payment_status === "paid"
+                        ? "Cancel this registration? Refunds depend on the organizer's cancellation policy."
+                        : "Cancel this registration?"
+                    }
+                  >
+                    <input type="hidden" name="id" value={r.id} />
+                    <SubmitButton className="btn-secondary" pendingLabel="Cancelling…">Cancel registration</SubmitButton>
+                  </ActionForm>
+                )}
+              </div>
             </li>
           ))}
         </ul>

@@ -1,8 +1,12 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { after } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { requireSession } from "@/lib/auth";
+import { emails, type EmailEvent } from "@/lib/email";
+import { isPaymentsConfigured, refundPayment } from "@/lib/razorpay";
 import type { ActionResult } from "@/components/dashboard/ActionForm";
 import type { Difficulty, EventStatus, FormField, ItineraryDay, RegistrationStatus, Role } from "@/lib/types";
 
@@ -14,19 +18,37 @@ const FIELD_TYPES = ["text", "textarea", "number", "select", "checkbox", "date"]
 const str = (fd: FormData, k: string) => String(fd.get(k) ?? "").trim();
 const orNull = (s: string | null | undefined) => (s && s.trim() ? s.trim() : null);
 
+const EMAIL_REG_FIELDS =
+  "id, event_id, full_name, email, participants, status, payment_status, amount_due_inr, amount_paid_inr, event:events(id, title, start_date, end_date, meeting_point, contact_email, organizer_id)";
+type EmailReg = {
+  id: string;
+  event_id: string;
+  full_name: string;
+  email: string;
+  participants: number;
+  status: RegistrationStatus;
+  payment_status: string;
+  amount_due_inr: number;
+  amount_paid_inr: number;
+  event: EmailEvent;
+};
+
 /* ----------------------------- registrations ----------------------------- */
 
 export async function cancelRegistration(fd: FormData): Promise<ActionResult> {
   const session = await requireSession();
   const id = str(fd, "id");
   const supabase = await createClient();
-  const { error } = await supabase
+  const { data, error } = await supabase
     .from("registrations")
     .update({ status: "cancelled" })
     .eq("id", id)
     .eq("user_id", session.userId)
-    .in("status", ["pending", "confirmed", "waitlisted"]);
+    .in("status", ["pending", "confirmed", "waitlisted"])
+    .select(EMAIL_REG_FIELDS)
+    .maybeSingle<EmailReg>();
   if (error) return { error: error.message };
+  if (data) after(() => emails.cancelledForOrganizer(data.event, data));
   revalidatePath("/dashboard", "layout");
   return { ok: true };
 }
@@ -37,16 +59,54 @@ export async function updateRegistration(fd: FormData): Promise<ActionResult> {
   const status = str(fd, "status") as RegistrationStatus;
   if (!REG_STATUSES.includes(status)) return { error: "Invalid status" };
   const supabase = await createClient();
+  const { data: before } = await supabase.from("registrations").select("status").eq("id", id).maybeSingle();
   const { data, error } = await supabase
     .from("registrations")
     .update({ status, notes: orNull(str(fd, "notes")) })
     .eq("id", id)
-    .select("event_id");
+    .select(EMAIL_REG_FIELDS)
+    .returns<EmailReg[]>();
   if (error) return { error: error.message };
   if (!data || data.length === 0) return { error: "Registration not found or not allowed" };
-  revalidatePath(`/dashboard/events/${data[0].event_id}/registrations`);
+  const reg = data[0];
+  if (before && before.status !== reg.status) after(() => emails.statusChanged(reg.event, reg));
+  revalidatePath(`/dashboard/events/${reg.event_id}/registrations`);
   revalidatePath("/dashboard");
   return { ok: true, message: "Saved" };
+}
+
+/** Full refund of everything paid online; also cancels the registration. */
+export async function refundRegistration(fd: FormData): Promise<ActionResult> {
+  const session = await requireSession(["organizer", "owner"]);
+  if (!isPaymentsConfigured) return { error: "Online payments are not configured." };
+  const id = str(fd, "id");
+  // RLS limits this read to the event's organizer and the owner.
+  const supabase = await createClient();
+  const { data: reg } = await supabase.from("registrations").select(EMAIL_REG_FIELDS).eq("id", id).maybeSingle<EmailReg>();
+  if (!reg) return { error: "Registration not found" };
+  if (session.profile.role !== "owner" && reg.event.organizer_id !== session.userId) return { error: "Not allowed" };
+  if (reg.payment_status !== "paid" && reg.amount_paid_inr <= 0) return { error: "Nothing has been paid online." };
+
+  const admin = createAdminClient();
+  const { data: payments } = await admin
+    .from("payments")
+    .select("id, razorpay_payment_id")
+    .eq("registration_id", id)
+    .eq("status", "paid");
+  for (const pay of payments ?? []) {
+    if (!pay.razorpay_payment_id) continue;
+    try {
+      const refund = await refundPayment(pay.razorpay_payment_id);
+      await admin.from("payments").update({ status: "refunded", razorpay_refund_id: refund.id }).eq("id", pay.id);
+    } catch (err) {
+      return { error: err instanceof Error ? `Refund failed: ${err.message}` : "Refund failed" };
+    }
+  }
+  await admin.from("registrations").update({ payment_status: "refunded", status: "cancelled" }).eq("id", id);
+  after(() => emails.refundIssued(reg.event, reg));
+  revalidatePath(`/dashboard/events/${reg.event_id}/registrations`);
+  revalidatePath(`/events/${reg.event_id}`);
+  return { ok: true, message: "Refund initiated" };
 }
 
 /* -------------------------------- profile -------------------------------- */
@@ -92,6 +152,7 @@ export interface EventInput {
   meeting_point: string;
   city: string;
   price_inr: number;
+  advance_percent: number;
   total_seats: number;
   registration_open: boolean;
   registration_opens_at: string | null;
@@ -117,6 +178,8 @@ export async function saveEvent(input: EventInput, id?: string): Promise<{ error
   if (input.end_date < input.start_date) return { error: "End date must be on or after the start date" };
   if (!Number.isFinite(input.total_seats) || input.total_seats <= 0) return { error: "Total seats must be greater than 0" };
   if (!Number.isFinite(input.price_inr) || input.price_inr < 0) return { error: "Price cannot be negative" };
+  if (!Number.isInteger(input.advance_percent) || input.advance_percent < 10 || input.advance_percent > 100)
+    return { error: "Advance must be between 10% and 100%" };
   if (input.difficulty && !DIFFICULTIES.includes(input.difficulty)) return { error: "Invalid difficulty" };
   if (input.registration_opens_at && input.registration_closes_at && input.registration_closes_at < input.registration_opens_at) {
     return { error: "Registration close time must be after the open time" };
@@ -143,6 +206,7 @@ export async function saveEvent(input: EventInput, id?: string): Promise<{ error
     meeting_point: orNull(input.meeting_point),
     city: orNull(input.city),
     price_inr: Math.round(input.price_inr),
+    advance_percent: input.advance_percent,
     total_seats: Math.round(input.total_seats),
     registration_open: input.registration_open,
     registration_opens_at: input.registration_opens_at,

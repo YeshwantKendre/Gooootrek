@@ -19,6 +19,7 @@ const base = {
   organizer_id: organizer.id,
   organizer,
   registration_open: true,
+  advance_percent: 100,
   registration_opens_at: null,
   registration_closes_at: null,
   contact_phone: null,
