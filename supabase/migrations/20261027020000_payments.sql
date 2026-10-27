@@ -133,9 +133,8 @@ $$;
 
 -- A paid registration must not be deleted to re-register; only unpaid
 -- cancelled ones can be cleared.
-drop policy "Users delete their cancelled registrations" on public.registrations;
-create policy "Users delete their cancelled registrations" on public.registrations
-  for delete using (
+alter policy "Users delete their cancelled registrations" on public.registrations
+  using (
     user_id = auth.uid() and status = 'cancelled' and payment_status in ('not_required', 'unpaid', 'refunded')
   );
 
