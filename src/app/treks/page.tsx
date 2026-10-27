@@ -84,8 +84,8 @@ export default async function TreksPage({ searchParams }: { searchParams: Promis
         <p className="mt-1 text-sm text-muted">{all.length} trails across India: from gentle forest walks to high Himalayan passes.</p>
       </div>
 
-      <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
-        <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] lg:mx-0 lg:px-0 xl:min-w-0">
+      <div className="flex flex-col gap-4 2xl:flex-row 2xl:items-center 2xl:justify-between">
+        <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] lg:mx-0 lg:px-0 2xl:min-w-0">
           {CHIPS.map((c) => (
             <Link key={c.label} href={href({ tag: c.tag, page: "" })} className={`chip shrink-0 !px-4 !py-1.5 !text-sm ${tag === c.tag ? "chip-active" : ""}`}>
               {c.label}

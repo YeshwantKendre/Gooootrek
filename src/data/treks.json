@@ -9,15 +9,34 @@
     "duration_days": 6,
     "max_altitude_m": 3810,
     "distance_km": 20,
-    "best_months": ["Dec", "Jan", "Feb", "Mar", "Apr"],
-    "seasons": ["winter", "spring"],
+    "best_months": [
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
     "base_camp": "Sankri",
     "nearest_airport": "Jolly Grant Airport, Dehradun",
     "nearest_railway": "Dehradun",
     "summary": "India's most popular winter summit trek through snow-laden pine forests to a 360° Himalayan view.",
     "description": "Starting from the village of Sankri in Govind Wildlife Sanctuary, the Kedarkantha trail climbs through dense pine and oak forests to the frozen Juda ka Talab and a series of snowy campsites. The summit push begins before dawn and rewards trekkers with views of Swargarohini, Bandarpoonch and Black Peak.",
-    "highlights": ["Summit sunrise over Swargarohini", "Juda ka Talab frozen lake", "Snow camping in pine forests"],
-    "tags": ["himalayan", "snow", "summit", "beginner", "winter"],
+    "highlights": [
+      "Summit sunrise over Swargarohini",
+      "Juda ka Talab frozen lake",
+      "Snow camping in pine forests"
+    ],
+    "tags": [
+      "himalayan",
+      "snow",
+      "summit",
+      "beginner",
+      "winter"
+    ],
     "permits": "Forest entry permit for Govind Wildlife Sanctuary (arranged at Sankri)",
     "cover_image_url": null,
     "is_featured": true
@@ -32,15 +51,32 @@
     "duration_days": 5,
     "max_altitude_m": 4270,
     "distance_km": 26,
-    "best_months": ["Jun", "Jul", "Aug", "Sep"],
-    "seasons": ["summer", "monsoon"],
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon"
+    ],
     "base_camp": "Jobra",
     "nearest_airport": "Bhuntar Airport, Kullu",
     "nearest_railway": "Joginder Nagar",
     "summary": "A dramatic crossover from the green Kullu valley to the stark desert of Lahaul, with a side trip to Chandratal.",
     "description": "Hampta Pass connects the lush meadows of Kullu with the barren landscapes of Lahaul–Spiti. The trail follows river crossings, flower-filled meadows at Chika and Balu ka Ghera before the pass, and descends to Shea Goru. Most batches end with a drive to Chandratal lake.",
-    "highlights": ["Valley crossover from green to desert", "Chandratal lake", "River crossings"],
-    "tags": ["himalayan", "pass", "crossover", "monsoon"],
+    "highlights": [
+      "Valley crossover from green to desert",
+      "Chandratal lake",
+      "River crossings"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "monsoon"
+    ],
     "permits": "Forest permit from Manali forest office",
     "cover_image_url": null,
     "is_featured": true
@@ -55,15 +91,4469 @@
     "duration_days": 1,
     "max_altitude_m": 830,
     "distance_km": 15,
-    "best_months": ["Jun", "Jul", "Aug", "Sep", "Oct"],
-    "seasons": ["monsoon", "autumn"],
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn"
+    ],
     "base_camp": "Lonavala / Udhewadi",
     "nearest_airport": "Pune Airport",
     "nearest_railway": "Lonavala",
     "summary": "A classic Sahyadri fort trek with twin citadels, waterfalls and fireflies in the pre-monsoon nights.",
     "description": "Rajmachi has two fortifications, Shrivardhan and Manaranjan, overlooking the Konkan and Ulhas valley. The wide jeep trail from Lonavala is gentle, making it ideal for first-timers, while the steeper Kondivade route from Karjat offers a tougher climb.",
-    "highlights": ["Twin forts Shrivardhan & Manaranjan", "Monsoon waterfalls", "Firefly festival in late May"],
-    "tags": ["sahyadri", "fort", "monsoon", "beginner", "weekend"],
+    "highlights": [
+      "Twin forts Shrivardhan & Manaranjan",
+      "Monsoon waterfalls",
+      "Firefly festival in late May"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "valley-of-flowers",
+    "name": "Valley of Flowers",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 3658,
+    "distance_km": 38,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Govindghat",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh / Haridwar",
+    "summary": "A UNESCO-listed alpine valley that erupts into carpets of wildflowers each monsoon.",
+    "description": "The trail climbs from Govindghat to Ghangaria, from where the valley opens out as a wide glacial bowl dotted with hundreds of blooming species. Many itineraries add the steep climb to Hemkund Sahib. Rain is frequent, so the greenery peaks in late July and August.",
+    "highlights": [
+      "Hundreds of alpine flower species",
+      "Pushpawati river valley",
+      "Optional climb to Hemkund Sahib",
+      "Misty monsoon meadows"
+    ],
+    "tags": [
+      "himalayan",
+      "meadows",
+      "monsoon",
+      "family",
+      "cultural"
+    ],
+    "permits": "Entry ticket for Nanda Devi Biosphere Reserve collected at Ghangaria; valley open roughly June to October",
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "roopkund",
+    "name": "Roopkund",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Nanda Devi range",
+    "difficulty": "difficult",
+    "duration_days": 8,
+    "max_altitude_m": 5029,
+    "distance_km": 53,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Lohajung",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Kathgodam / Haridwar",
+    "summary": "The famed 'skeleton lake' trek through bugyals to a glacial tarn at over 5,000 m.",
+    "description": "Starting at Lohajung, the route passes Ali and Bedni Bugyals, two of the largest high-altitude meadows in the Himalaya, before the climb to Bhagwabasa. The final push to the tarn crosses snow and loose scree, with Trishul and Nanda Ghunti dominating the skyline. Camping rules in the meadows have changed over the years, so check current guidelines.",
+    "highlights": [
+      "Ali and Bedni Bugyals",
+      "Skeleton-lake legend",
+      "Views of Trishul and Nanda Ghunti",
+      "Snow trek to Junargali ridge"
+    ],
+    "tags": [
+      "himalayan",
+      "meadows",
+      "snow",
+      "high-altitude",
+      "camping",
+      "lakes"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "har-ki-dun",
+    "name": "Har Ki Dun",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 7,
+    "max_altitude_m": 3566,
+    "distance_km": 47,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Sankri",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Dehradun",
+    "summary": "A pastoral hanging valley trek through ancient villages, with snow peaks at its head.",
+    "description": "The route follows the Tons tributary from Taluka through the villages of Osla and Gangad, where wooden temples and terraced fields set the pace. Higher up, the valley widens into meadows beneath Swargarohini and Bandarpoonch. It is a rewarding year-round option, with snow in winter and flowers in early summer.",
+    "highlights": [
+      "Osla village and its Duryodhana temple",
+      "Swargarohini peaks",
+      "Alpine meadows and river camps",
+      "Option to continue to Ruinsara Tal"
+    ],
+    "tags": [
+      "himalayan",
+      "meadows",
+      "river",
+      "forest",
+      "cultural",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "brahmatal",
+    "name": "Brahmatal",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 3734,
+    "distance_km": 24,
+    "best_months": [
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Lohajung",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Kathgodam",
+    "summary": "A snowy winter walk to a frozen lake with front-row views of Trishul and Nanda Ghunti.",
+    "description": "Beginning from Lohajung, the trail climbs through oak and rhododendron forest to Bekaltal and then the ridge above Brahmatal. The camp at Jhandi Top gives a sweeping view across the Garhwal and Kumaon ranges. It is a popular alternative to Kedarkantha for a first snow trek.",
+    "highlights": [
+      "Frozen Bekaltal and Brahmatal lakes",
+      "Jhandi Top panorama",
+      "Snow-laden oak forest",
+      "Mt Trishul views"
+    ],
+    "tags": [
+      "himalayan",
+      "snow",
+      "lakes",
+      "forest",
+      "winter",
+      "beginner"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "kuari-pass",
+    "name": "Kuari Pass",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 5,
+    "max_altitude_m": 3815,
+    "distance_km": 33,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Joshimath",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "The 'Curzon Trail' ridge walk with an unbroken line of Himalayan giants.",
+    "description": "This ridge trek from Joshimath crosses Gorson Bugyal and Tali before reaching the pass. Nanda Devi, Dronagiri, Kamet and Hathi Parvat line up across the horizon on clear days. It works well in winter snow and again in spring.",
+    "highlights": [
+      "Nanda Devi and Dronagiri views",
+      "Gorson Bugyal",
+      "Historic Curzon Trail",
+      "Oak and rhododendron woods"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "snow",
+      "meadows",
+      "forest",
+      "winter"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "pangarchulla",
+    "name": "Pangarchulla Peak",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "difficult",
+    "duration_days": 6,
+    "max_altitude_m": 4590,
+    "distance_km": 29,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Joshimath",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "A steep summit climb from Tali that combines winter snow with bold Himalayan panoramas.",
+    "description": "Following the Kuari Pass trail, the route diverges at Khullara and gains height quickly over snow and rock to the summit ridge. The last stretch requires sure footing and an early start. The top gives views of Dronagiri, Nanda Devi and Chaukhamba.",
+    "highlights": [
+      "Summit with 360° Himalayan views",
+      "Snow camping at Khullara",
+      "Combines meadows and ridge walking"
+    ],
+    "tags": [
+      "himalayan",
+      "summit",
+      "snow",
+      "high-altitude",
+      "winter"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "dayara-bugyal",
+    "name": "Dayara Bugyal",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "easy",
+    "duration_days": 4,
+    "max_altitude_m": 3408,
+    "distance_km": 22,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Barsu",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Dehradun / Rishikesh",
+    "summary": "One of Garhwal's most spacious meadows, ideal for a first Himalayan trek.",
+    "description": "The gentle path from Barsu village climbs through forest to Barnala Lake and then into the sweeping bugyal. In winter the entire meadow turns into a ski-slope-like snowfield. Views include Bandarpoonch, Draupadi ka Danda and Srikanth.",
+    "highlights": [
+      "Wide ski-slope meadows",
+      "Barnala Tal",
+      "Bandarpoonch views",
+      "Easy gradients"
+    ],
+    "tags": [
+      "himalayan",
+      "meadows",
+      "snow",
+      "beginner",
+      "family",
+      "winter"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "chopta-tungnath-chandrashila",
+    "name": "Chopta Tungnath Chandrashila",
+    "state": "Uttarakhand",
+    "region": "Rudraprayag, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "easy",
+    "duration_days": 3,
+    "max_altitude_m": 4000,
+    "distance_km": 12,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Chopta",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Haridwar / Rishikesh",
+    "summary": "A short temple-and-summit trek that reaches the world's highest Shiva temple and a classic peak.",
+    "description": "From Chopta the stone-paved trail climbs through rhododendron forest to Tungnath, the highest of the Panch Kedar temples. A further steep stretch leads to Chandrashila summit. Sunrise from the top lights up Nanda Devi, Trishul, Chaukhamba and Kedarnath peaks.",
+    "highlights": [
+      "Tungnath temple",
+      "Chandrashila summit sunrise",
+      "Rhododendron bloom in spring",
+      "Chopta meadows"
+    ],
+    "tags": [
+      "himalayan",
+      "summit",
+      "forest",
+      "cultural",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kedartal",
+    "name": "Kedartal",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Gangotri Himalaya",
+    "difficulty": "difficult",
+    "duration_days": 6,
+    "max_altitude_m": 4750,
+    "distance_km": 34,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Gangotri",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "A rugged glacial-lake trek from Gangotri below the Thalay Sagar peak.",
+    "description": "The route follows the Kedar Ganga up a steep gorge past Bhoj Kharak and Kedar Kharak to the emerald lake. Boulder fields and steep rocky patches make the approach demanding. Thalay Sagar and Bhrigupanth tower overhead.",
+    "highlights": [
+      "Emerald glacial lake",
+      "Thalay Sagar views",
+      "Gangotri river gorge"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "glacier",
+      "high-altitude",
+      "river",
+      "camping"
+    ],
+    "permits": "Gangotri National Park entry permit from Uttarkashi forest office",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "bali-pass",
+    "name": "Bali Pass",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "challenging",
+    "duration_days": 8,
+    "max_altitude_m": 4950,
+    "distance_km": 60,
+    "best_months": [
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Sankri",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Dehradun",
+    "summary": "A demanding crossover from the Tons valley to Yamunotri via Ruinsara Tal.",
+    "description": "The trail runs past Taluka and Osla to Ruinsara Tal, then crosses steep scree and glacier terrain over Bali Pass into the Yamunotri side. Weather windows are narrow and navigation requires an experienced guide. It is among the most rewarding crossovers in the region.",
+    "highlights": [
+      "Ruinsara Tal",
+      "Glacier and boulder crossing",
+      "Descent to Yamunotri"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "high-altitude",
+      "lakes",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kalindi-khal",
+    "name": "Kalindi Khal",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi / Chamoli, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "challenging",
+    "duration_days": 10,
+    "max_altitude_m": 5950,
+    "distance_km": 100,
+    "best_months": [
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Gangotri",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "An expedition-grade glacier crossing from Gangotri to Badrinath beneath Chaukhamba.",
+    "description": "The route follows Gaumukh and Tapovan, then traverses crevassed glaciers to reach the high col. A descent through the Arwa valley leads to Mana and Badrinath. It needs technical skills, acclimatisation and a strong support team.",
+    "highlights": [
+      "Glacier traverse",
+      "Tapovan and Nandanvan",
+      "Chaukhamba and Kamet views"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "glacier",
+      "high-altitude",
+      "camping"
+    ],
+    "permits": "Permits are generally arranged by the expedition operator; confirm current requirements",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "rupin-pass",
+    "name": "Rupin Pass",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "difficult",
+    "duration_days": 8,
+    "max_altitude_m": 4650,
+    "distance_km": 52,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Dhaula",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Dehradun",
+    "summary": "A crossover from Uttarakhand to Himachal famed for its three-tiered frozen waterfall.",
+    "description": "The trail starts in Dhaula and rises beside the Rupin river through villages, forest and meadows to the base of an immense three-stage waterfall. Snow slopes lead up to the pass, followed by a long descent to Sangla in Himachal. It rewards trekkers with unusually varied terrain.",
+    "highlights": [
+      "Three-stage Rupin waterfall",
+      "Village-to-snowfield variety",
+      "Crossover into Sangla valley"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "waterfall",
+      "snow",
+      "river",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "borasu-pass",
+    "name": "Borasu Pass",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "challenging",
+    "duration_days": 8,
+    "max_altitude_m": 5450,
+    "distance_km": 60,
+    "best_months": [
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Harsil",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "A high crossover from Harsil to Chitkul in Himachal, passing Kinnaur Kailash views.",
+    "description": "The route climbs from Harsil through remote meadows and moraines to the pass. Descent leads to Chitkul, one of the last villages before the Tibet border. Snow and thin air make this a seasoned trekker's route.",
+    "highlights": [
+      "Remote high pasture",
+      "Descent into Chitkul",
+      "Glacial terrain"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "high-altitude",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "nag-tibba",
+    "name": "Nag Tibba",
+    "state": "Uttarakhand",
+    "region": "Tehri Garhwal",
+    "mountain_range": "Lesser Himalaya",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 3022,
+    "distance_km": 10,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Pantwari",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Dehradun",
+    "summary": "A quick weekend getaway from Dehradun and Delhi with big Himalayan views.",
+    "description": "Starting at Pantwari, the trail winds through oak and deodar forest to a camp near the Nag Devta temple. The summit gives a line-up of Bandarpoonch, Kedarnath, Swargarohini and Gangotri peaks. Snow lines the route after winter storms.",
+    "highlights": [
+      "Weekend-friendly distance",
+      "Nag Devta temple",
+      "Snowy winter trail"
+    ],
+    "tags": [
+      "himalayan",
+      "summit",
+      "snow",
+      "weekend",
+      "beginner",
+      "winter"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "phulara-ridge",
+    "name": "Phulara Ridge",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 3500,
+    "distance_km": 30,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Sankri",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Dehradun",
+    "summary": "A ridge-top trek with long meadow walks and close views of Bandarpoonch and Black Peak.",
+    "description": "The trail starts near Sankri, rises through oak woods, then follows a long ridge that opens onto dramatic meadows. Camps along the ridge give wide sunrise and sunset views. The terrain is moderate with little rocky scrambling.",
+    "highlights": [
+      "Ridge-top camps",
+      "Bandarpoonch panorama",
+      "Lush meadows"
+    ],
+    "tags": [
+      "himalayan",
+      "meadows",
+      "forest",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "satopanth-lake",
+    "name": "Satopanth Lake",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "difficult",
+    "duration_days": 7,
+    "max_altitude_m": 4600,
+    "distance_km": 50,
+    "best_months": [
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Mana",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "A sacred glacial lake trek beyond Mana village with Neelkanth rising overhead.",
+    "description": "The route leaves Badrinath for Mana, crosses the Saraswati, and follows the Alaknanda glacier valley to Satopanth Tal and the Vasudhara fall. Boulder hopping and cold winds define the high stretch. The triangular lake is revered by pilgrims.",
+    "highlights": [
+      "Vasudhara waterfall",
+      "Sacred triangular lake",
+      "Neelkanth views"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "glacier",
+      "cultural",
+      "high-altitude"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "pindari-glacier",
+    "name": "Pindari Glacier",
+    "state": "Uttarakhand",
+    "region": "Bageshwar, Kumaon",
+    "mountain_range": "Kumaon Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 3627,
+    "distance_km": 94,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Loharkhet",
+    "nearest_airport": "Pantnagar Airport",
+    "nearest_railway": "Kathgodam",
+    "summary": "A classic Kumaon trek along the Pindar river to the glacier snout.",
+    "description": "From Loharkhet the trail passes villages, deodar and rhododendron forests, then climbs to Dwali, Phurkia and Zero Point. The valley opens to Nanda Kot and Panwali Dwar. The long approach is gradual and rewarding.",
+    "highlights": [
+      "Glacier snout at Zero Point",
+      "Pindar river valley",
+      "Kumaoni villages",
+      "Nanda Kot views"
+    ],
+    "tags": [
+      "himalayan",
+      "glacier",
+      "river",
+      "forest",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kafni-glacier",
+    "name": "Kafni Glacier",
+    "state": "Uttarakhand",
+    "region": "Bageshwar, Kumaon",
+    "mountain_range": "Kumaon Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 3860,
+    "distance_km": 60,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Song",
+    "nearest_airport": "Pantnagar Airport",
+    "nearest_railway": "Kathgodam",
+    "summary": "A quieter Kumaon glacier trek beside the Pindari route, ending beneath Nanda Kot.",
+    "description": "The trail climbs from Song through Khati village and Dwali to Kafni glacier, a side branch of the same valley as Pindari. Villages, forest and crashing streams punctuate the walk. Many trekkers combine it with Pindari.",
+    "highlights": [
+      "Kafni glacier snout",
+      "Quiet river valleys",
+      "Khati village"
+    ],
+    "tags": [
+      "himalayan",
+      "glacier",
+      "river",
+      "forest",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "audens-col",
+    "name": "Auden's Col",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "challenging",
+    "duration_days": 12,
+    "max_altitude_m": 5490,
+    "distance_km": 70,
+    "best_months": [
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Gangotri",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "A technical glacier crossing from Bhilangna valley to Gangotri.",
+    "description": "This route climbs through Kharsoli and Khatling glacier, then traverses crevasses and snow slopes to the col. Rope work, crampons and stable weather are essential. Only experienced high-altitude trekkers should attempt it.",
+    "highlights": [
+      "Glacier traverse",
+      "Crevasse crossing",
+      "Jogin and Thalay Sagar views"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "glacier",
+      "high-altitude"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "gaumukh-tapovan",
+    "name": "Gaumukh Tapovan",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Gangotri Himalaya",
+    "difficulty": "difficult",
+    "duration_days": 6,
+    "max_altitude_m": 4463,
+    "distance_km": 44,
+    "best_months": [
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Gangotri",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh",
+    "summary": "A pilgrimage trek to the Ganges source and the high meadow of Tapovan beneath Shivling.",
+    "description": "The trail leaves Gangotri for Chirbasa and Bhojbasa, then reaches the Gaumukh snout. A steep boulder climb leads to Tapovan, where Shivling dominates the horizon. Daily permits are limited, so plan ahead.",
+    "highlights": [
+      "Gaumukh glacier snout",
+      "Shivling views at Tapovan",
+      "Bhagirathi sisters"
+    ],
+    "tags": [
+      "himalayan",
+      "glacier",
+      "cultural",
+      "high-altitude",
+      "meadows",
+      "camping"
+    ],
+    "permits": "Gangotri National Park entry permit required (daily limits apply)",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "hemkund-sahib",
+    "name": "Hemkund Sahib",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 4329,
+    "distance_km": 21,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon"
+    ],
+    "base_camp": "Govindghat",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Rishikesh / Haridwar",
+    "summary": "A steep pilgrimage climb to a glacial lake and Sikh shrine.",
+    "description": "From Ghangaria the paved path zigzags up to the gurdwara beside the lake. The altitude makes the climb tiring despite the short distance. Most visitors combine it with the Valley of Flowers.",
+    "highlights": [
+      "Glacial lake and gurdwara",
+      "Alpine flora",
+      "Pilgrim route"
+    ],
+    "tags": [
+      "himalayan",
+      "cultural",
+      "lakes",
+      "family"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "deoria-tal",
+    "name": "Deoria Tal",
+    "state": "Uttarakhand",
+    "region": "Rudraprayag, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 2438,
+    "distance_km": 6,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Sari",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Haridwar / Rishikesh",
+    "summary": "A short walk to a mirror-like lake reflecting the Chaukhamba range.",
+    "description": "The easy trail climbs through oak and rhododendron forest from Sari village. The lake reflects Chaukhamba, Neelkanth and Kedarnath peaks, especially at sunrise. It is a popular add-on to Chopta.",
+    "highlights": [
+      "Chaukhamba reflections",
+      "Rhododendron forest",
+      "Sari village"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "beginner",
+      "weekend",
+      "family"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "ali-bedni-bugyal",
+    "name": "Ali Bedni Bugyal",
+    "state": "Uttarakhand",
+    "region": "Chamoli, Garhwal",
+    "mountain_range": "Nanda Devi range",
+    "difficulty": "moderate",
+    "duration_days": 5,
+    "max_altitude_m": 3354,
+    "distance_km": 34,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Lohajung",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Kathgodam",
+    "summary": "A meadow trek through Asia's largest high-altitude grasslands.",
+    "description": "The trail climbs from Lohajung through Wan village and oak forest to Bedni Bugyal, with its tiny lake. Ali Bugyal stretches above for a vast panorama of Trishul and Nanda Ghunti. Camping rules at the meadows have been revised, so check current guidelines.",
+    "highlights": [
+      "Huge open meadows",
+      "Bedni Kund",
+      "Trishul and Nanda Ghunti"
+    ],
+    "tags": [
+      "himalayan",
+      "meadows",
+      "lakes",
+      "forest",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "dodital-darwa-pass",
+    "name": "Dodital Darwa Pass",
+    "state": "Uttarakhand",
+    "region": "Uttarkashi, Garhwal",
+    "mountain_range": "Garhwal Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 5,
+    "max_altitude_m": 4150,
+    "distance_km": 40,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Sangamchatti",
+    "nearest_airport": "Jolly Grant Airport, Dehradun",
+    "nearest_railway": "Dehradun",
+    "summary": "A trek to Ganesha's reputed birthplace lake and over the Darwa Pass.",
+    "description": "The route climbs from Sangamchatti through dense forest and the Agoda village to Dodital. Beyond the lake, it crosses Darwa Top and descends to Hanuman Chatti. Rainbow trout swim in the lake.",
+    "highlights": [
+      "Dodital lake",
+      "Darwa Pass",
+      "Dense deodar forest"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "pass",
+      "forest",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "triund",
+    "name": "Triund",
+    "state": "Himachal Pradesh",
+    "region": "Kangra",
+    "mountain_range": "Dhauladhar range",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 2828,
+    "distance_km": 18,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "McLeod Ganj",
+    "nearest_airport": "Gaggal Airport, Kangra",
+    "nearest_railway": "Pathankot",
+    "summary": "A beloved short ridge walk above McLeod Ganj facing the Dhauladhar wall.",
+    "description": "The trail climbs from Dharamkot through oak and rhododendron to a grassy ridge at the foot of the Dhauladhar. Night stays on the ridge bring starry skies and sunrise over the Kangra valley. It is ideal for first-timers and weekend breaks.",
+    "highlights": [
+      "Dhauladhar views",
+      "Ridge camping",
+      "Kangra valley sunrise"
+    ],
+    "tags": [
+      "himalayan",
+      "beginner",
+      "weekend",
+      "camping",
+      "family"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "beas-kund",
+    "name": "Beas Kund",
+    "state": "Himachal Pradesh",
+    "region": "Kullu",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "moderate",
+    "duration_days": 4,
+    "max_altitude_m": 3700,
+    "distance_km": 16,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Solang Nala",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A glacial-lake trek near Manali at the source of the Beas river.",
+    "description": "From Solang the route climbs through Dhundi, Bakarthach and the lake itself, ringed by Hanuman Tibba, Ladakhi and Shitidhar peaks. Spring brings snowfields and summer flower meadows. It is a popular short trek from Manali.",
+    "highlights": [
+      "Beas source lake",
+      "Hanuman Tibba views",
+      "Flower meadows"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "snow",
+      "meadows",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "bhrigu-lake",
+    "name": "Bhrigu Lake",
+    "state": "Himachal Pradesh",
+    "region": "Kullu",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "moderate",
+    "duration_days": 4,
+    "max_altitude_m": 4300,
+    "distance_km": 23,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Gulaba",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A high-altitude lake near Rohtang that stays semi-frozen into summer.",
+    "description": "The trail starts at Gulaba, passes Rola Kholi and climbs over grassy ridges to the lake. Views extend to Pir Panjal and Lahaul peaks. Weather changes fast, so an early start is key.",
+    "highlights": [
+      "Semi-frozen alpine lake",
+      "Rola Kholi meadows",
+      "Views over Manali"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "meadows",
+      "snow",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "pin-parvati-pass",
+    "name": "Pin Parvati Pass",
+    "state": "Himachal Pradesh",
+    "region": "Kullu–Spiti",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "challenging",
+    "duration_days": 11,
+    "max_altitude_m": 5319,
+    "distance_km": 110,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Barshaini",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A long crossover from the Parvati valley's hot springs to Spiti's cold desert.",
+    "description": "The route follows the Parvati river through Mantalai and Thakur Kuan, then climbs boulders and glacier moraines to the pass. Descent leads through Pin valley to Mud village. It demands stamina, stream crossings and high-altitude experience.",
+    "highlights": [
+      "Mantalai lake",
+      "Glacier-boulder crossing",
+      "Parvati-to-Spiti crossover"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "glacier",
+      "high-altitude",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kheerganga",
+    "name": "Kheerganga",
+    "state": "Himachal Pradesh",
+    "region": "Kullu",
+    "mountain_range": "Parvati valley",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 2960,
+    "distance_km": 12,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Barshaini",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A lively Parvati valley hike to hot springs in a meadow.",
+    "description": "The trail starts in Barshaini, passes Nakthan village and runs beside waterfalls and pine forest to a meadow with a natural hot spring. Many hikers camp overnight. It is accessible in most seasons except heavy snow.",
+    "highlights": [
+      "Natural hot spring",
+      "Waterfall trail",
+      "Meadow camping"
+    ],
+    "tags": [
+      "himalayan",
+      "beginner",
+      "weekend",
+      "camping",
+      "waterfall"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "prashar-lake",
+    "name": "Prashar Lake",
+    "state": "Himachal Pradesh",
+    "region": "Mandi",
+    "mountain_range": "Dhauladhar range",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 2730,
+    "distance_km": 8,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Baggi",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A floating-island lake beside a pagoda-style temple, ringed by deodar forest.",
+    "description": "The trail rises from Baggi through oak and cedar to a wide meadow with the lake and ancient Prashar Rishi temple. The central floating island drifts over the water. Peaks of the Pir Panjal and Dhauladhar appear on clear days.",
+    "highlights": [
+      "Floating island",
+      "Pagoda temple",
+      "Panoramic ridge views"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "cultural",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "sar-pass",
+    "name": "Sar Pass",
+    "state": "Himachal Pradesh",
+    "region": "Kullu",
+    "mountain_range": "Parvati valley",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 4220,
+    "distance_km": 48,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Kasol",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A snow-slide pass trek starting from the Parvati valley's backpacker village.",
+    "description": "From Grahan, the route climbs through Min Thach and Nagaru into snowfields and a steep slide to Biskeri Thach. The pass gives wide views of the Parvati valley. Snow is present for much of the season.",
+    "highlights": [
+      "Snow slide descent",
+      "Grahan village",
+      "Alpine ridge"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "snow",
+      "camping",
+      "meadows"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "indrahar-pass",
+    "name": "Indrahar Pass",
+    "state": "Himachal Pradesh",
+    "region": "Kangra",
+    "mountain_range": "Dhauladhar range",
+    "difficulty": "difficult",
+    "duration_days": 4,
+    "max_altitude_m": 4342,
+    "distance_km": 35,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "McLeod Ganj",
+    "nearest_airport": "Gaggal Airport, Kangra",
+    "nearest_railway": "Pathankot",
+    "summary": "A steep Dhauladhar crossover over Triund and Lahesh cave.",
+    "description": "The route continues from Triund over snowfields and rocky ridges to Laka Got and Lahesh Cave. The final rocky climb leads to a narrow pass with views over Chamba and Kangra. Snow and thin air make it demanding.",
+    "highlights": [
+      "Crossover to Chamba",
+      "Lahesh Cave",
+      "High ridge"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "snow",
+      "high-altitude",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "buran-ghati",
+    "name": "Buran Ghati",
+    "state": "Himachal Pradesh",
+    "region": "Shimla",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "difficult",
+    "duration_days": 6,
+    "max_altitude_m": 4572,
+    "distance_km": 40,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Janglik",
+    "nearest_airport": "Jubbarhatti Airport, Shimla",
+    "nearest_railway": "Kalka / Shimla",
+    "summary": "A snow pass trek from Janglik to Dodra Kwar with sweeping shepherd meadows.",
+    "description": "The path climbs through Dayara Thach and Litham, with sprawling grass bowls enclosing the route. The pass itself rises over steep snow and glacial moraines. A long descent finishes in remote villages.",
+    "highlights": [
+      "Shepherd meadows",
+      "Snow pass crossing",
+      "Remote villages"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "snow",
+      "meadows",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "chandrakhani-pass",
+    "name": "Chandrakhani Pass",
+    "state": "Himachal Pradesh",
+    "region": "Kullu",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "moderate",
+    "duration_days": 4,
+    "max_altitude_m": 3660,
+    "distance_km": 16,
+    "best_months": [
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Naggar",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A culture-rich pass trek from Naggar to the ancient village of Malana.",
+    "description": "The trail climbs through Rumsu and Chandrakhani Top, with views of Deo Tibba and the Parvati range. It then descends through pine forest to Malana. The area has unique local customs, so respectful behaviour is essential.",
+    "highlights": [
+      "Malana village",
+      "Chandrakhani Top",
+      "Deo Tibba views"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "cultural",
+      "forest"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kareri-lake",
+    "name": "Kareri Lake",
+    "state": "Himachal Pradesh",
+    "region": "Kangra",
+    "mountain_range": "Dhauladhar range",
+    "difficulty": "easy",
+    "duration_days": 3,
+    "max_altitude_m": 2934,
+    "distance_km": 28,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Ghera",
+    "nearest_airport": "Gaggal Airport, Kangra",
+    "nearest_railway": "Pathankot",
+    "summary": "A pleasant forest and stream trek to a lake beneath the Dhauladhar.",
+    "description": "From Ghera village the trail follows the Nyund stream through woods and waterfalls to Kareri Lake. Stream crossings can be tricky after rain. Views of Minvakhi peak enhance the camp.",
+    "highlights": [
+      "Forest stream trail",
+      "High lake",
+      "Dhauladhar views"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "forest",
+      "beginner",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "pin-bhaba-pass",
+    "name": "Pin Bhaba Pass",
+    "state": "Himachal Pradesh",
+    "region": "Kinnaur–Spiti",
+    "mountain_range": "Himalaya",
+    "difficulty": "difficult",
+    "duration_days": 8,
+    "max_altitude_m": 4850,
+    "distance_km": 60,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Kafnu",
+    "nearest_airport": "Jubbarhatti Airport, Shimla",
+    "nearest_railway": "Shimla / Kalka",
+    "summary": "A dramatic crossover from the green Bhaba valley to the arid Pin valley.",
+    "description": "The route climbs along the Bhaba river through alpine forest to Mulling and Phustirang meadows, then over a rocky pass. The contrast between Kinnaur's greenery and Spiti's desert is stark. Monsoon rain can affect the lower trail.",
+    "highlights": [
+      "Green-to-desert contrast",
+      "Bhaba valley",
+      "Pin valley"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "crossover",
+      "meadows",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kinner-kailash",
+    "name": "Kinner Kailash",
+    "state": "Himachal Pradesh",
+    "region": "Kinnaur",
+    "mountain_range": "Kinnaur Kailash range",
+    "difficulty": "difficult",
+    "duration_days": 3,
+    "max_altitude_m": 5242,
+    "distance_km": 28,
+    "best_months": [
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Kalpa",
+    "nearest_airport": "Jubbarhatti Airport, Shimla",
+    "nearest_railway": "Shimla / Kalka",
+    "summary": "A steep pilgrim trek to a 79-foot rock formation revered as a Shiva linga.",
+    "description": "The climb begins near Powari and ascends via Ganesh Park and Parvati Kund. The air is thin and the terrain unforgiving, making it a serious one-day push. The reward is a sacred natural shrine.",
+    "highlights": [
+      "Natural Shiva linga rock",
+      "Kinnaur panorama",
+      "Parvati Kund"
+    ],
+    "tags": [
+      "himalayan",
+      "cultural",
+      "high-altitude",
+      "pass"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "jalori-serolsar",
+    "name": "Serolsar Lake via Jalori Pass",
+    "state": "Himachal Pradesh",
+    "region": "Kullu",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 3100,
+    "distance_km": 10,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Jibhi",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A gentle forest trail to a sacred lake near the Jalori Pass.",
+    "description": "The path climbs from Jalori Pass through oak and spruce, with a small temple at the lake. Mist often shrouds the forest. The lake is a favourite among beginners.",
+    "highlights": [
+      "Sacred lake",
+      "Spruce forest",
+      "Jibhi valley"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "forest",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "churdhar",
+    "name": "Churdhar",
+    "state": "Himachal Pradesh",
+    "region": "Sirmaur",
+    "mountain_range": "Shivalik–Lesser Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 3647,
+    "distance_km": 16,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Nohradhar",
+    "nearest_airport": "Jubbarhatti Airport, Shimla",
+    "nearest_railway": "Ambala / Kalka",
+    "summary": "The highest peak in the Sirmaur region, with a huge viewing platform.",
+    "description": "The trail climbs from Nohradhar through deodar and oak forest to the summit temple. From the top, views span the Shivaliks to the snow peaks. It is a rewarding two-day trek close to Chandigarh and Shimla.",
+    "highlights": [
+      "Summit temple",
+      "Deodar forests",
+      "Sunrise over Shivaliks"
+    ],
+    "tags": [
+      "himalayan",
+      "summit",
+      "forest",
+      "cultural",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "shrikhand-mahadev",
+    "name": "Shrikhand Mahadev",
+    "state": "Himachal Pradesh",
+    "region": "Kullu",
+    "mountain_range": "Great Himalaya",
+    "difficulty": "difficult",
+    "duration_days": 5,
+    "max_altitude_m": 5227,
+    "distance_km": 35,
+    "best_months": [
+      "Jul"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Jaon",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A stiff pilgrimage to a 72-foot Shiva linga, usually walked during the annual yatra.",
+    "description": "The route climbs through Singhgad, Thachru and Bheem Dwar before the steep final stretch. Narrow trails, snow and exposed sections require care. The pilgrimage is held for a short period each July.",
+    "highlights": [
+      "Annual pilgrimage",
+      "Alpine meadows",
+      "Views of Great Himalaya"
+    ],
+    "tags": [
+      "himalayan",
+      "cultural",
+      "high-altitude",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "chandratal-batal",
+    "name": "Chandratal Lake via Batal",
+    "state": "Himachal Pradesh",
+    "region": "Lahaul and Spiti",
+    "mountain_range": "Lahaul Himalaya",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 4300,
+    "distance_km": 14,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon"
+    ],
+    "base_camp": "Batal",
+    "nearest_airport": "Bhuntar Airport, Kullu",
+    "nearest_railway": "Joginder Nagar",
+    "summary": "A short walk from Batal to a moon-shaped lake in Lahaul.",
+    "description": "The trail follows the Chandra river valley before opening onto the high-altitude lake. Camping beside the lake is a highlight, though it requires care to leave no trace. Roads to Batal close in winter.",
+    "highlights": [
+      "Crescent-shaped lake",
+      "High desert scenery",
+      "Easy gradients"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "camping",
+      "family"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kashmir-great-lakes",
+    "name": "Kashmir Great Lakes",
+    "state": "Jammu and Kashmir",
+    "region": "Sonamarg, Kashmir",
+    "mountain_range": "Pir Panjal and Great Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 7,
+    "max_altitude_m": 4200,
+    "distance_km": 70,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Sonamarg",
+    "nearest_airport": "Srinagar Airport",
+    "nearest_railway": "Srinagar / Jammu Tawi",
+    "summary": "A signature Kashmir trek linking alpine lakes beneath glaciated peaks.",
+    "description": "The trail crosses Nichnai and Gadsar passes, with lakes including Vishansar, Kishansar, Gadsar and Satsar. Meadows are flower-strewn in summer. Weather can turn quickly, so layers and rain gear matter.",
+    "highlights": [
+      "Vishansar, Kishansar and Gadsar lakes",
+      "Flower-filled meadows",
+      "Gadsar Pass"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "pass",
+      "meadows",
+      "high-altitude",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "tarsar-marsar",
+    "name": "Tarsar Marsar",
+    "state": "Jammu and Kashmir",
+    "region": "Pahalgam, Kashmir",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 3900,
+    "distance_km": 50,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Aru",
+    "nearest_airport": "Srinagar Airport",
+    "nearest_railway": "Srinagar / Jammu Tawi",
+    "summary": "A twin-lake trek from Aru through pastoral Kashmir valleys.",
+    "description": "From Aru the trail passes Lidderwat and Shekwas into the Tarsar basin, then over the Sumbal pass to Marsar. Green hills and shepherd huts line the route. It is an alternative to the Great Lakes for those wanting fewer crowds.",
+    "highlights": [
+      "Twin lakes",
+      "Shekwas meadows",
+      "Sumbal pass"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "meadows",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "gangabal-nundkol",
+    "name": "Gangabal and Nundkol",
+    "state": "Jammu and Kashmir",
+    "region": "Ganderbal, Kashmir",
+    "mountain_range": "Great Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 5,
+    "max_altitude_m": 3658,
+    "distance_km": 40,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Naranag",
+    "nearest_airport": "Srinagar Airport",
+    "nearest_railway": "Srinagar / Jammu Tawi",
+    "summary": "A two-lake trek beneath Mt Harmukh with alpine views.",
+    "description": "From Naranag the route climbs through forest and meadows to Gangabal Lake, then Nundkol beyond. Mt Harmukh rises above the shore. Lake-side camps make for striking sunrises.",
+    "highlights": [
+      "Lake at the foot of Harmukh",
+      "Nundkol lake",
+      "Wildflower meadows"
+    ],
+    "tags": [
+      "himalayan",
+      "lakes",
+      "meadows",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kolahoi-glacier",
+    "name": "Kolahoi Glacier",
+    "state": "Jammu and Kashmir",
+    "region": "Pahalgam, Kashmir",
+    "mountain_range": "Pir Panjal",
+    "difficulty": "moderate",
+    "duration_days": 4,
+    "max_altitude_m": 3600,
+    "distance_km": 33,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Aru",
+    "nearest_airport": "Srinagar Airport",
+    "nearest_railway": "Srinagar / Jammu Tawi",
+    "summary": "A forest-to-glacier trek in Lidder valley toward the Matterhorn of Kashmir.",
+    "description": "The path runs from Aru along the Lidder river through Lidderwat to the glacier. Tall Kolahoi peak looms over the final stretch. Boulder stretches are slippery after rain.",
+    "highlights": [
+      "Kolahoi peak views",
+      "Lidder river valley",
+      "Glacier approach"
+    ],
+    "tags": [
+      "himalayan",
+      "glacier",
+      "river",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "warwan-valley",
+    "name": "Warwan Valley",
+    "state": "Jammu and Kashmir",
+    "region": "Kishtwar, Jammu",
+    "mountain_range": "Great Himalaya",
+    "difficulty": "moderate",
+    "duration_days": 8,
+    "max_altitude_m": 4418,
+    "distance_km": 80,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Inshan",
+    "nearest_airport": "Srinagar Airport",
+    "nearest_railway": "Jammu Tawi",
+    "summary": "A remote valley crossing from Kishtwar to Anantnag via Margan Top.",
+    "description": "This lesser-visited route follows the Marwah and Warwan river valleys through isolated settlements. It then climbs Margan Top to descend into Kashmir. Logistics are demanding, so go with a local outfit.",
+    "highlights": [
+      "Remote villages",
+      "Margan Top crossing",
+      "Quiet river valley"
+    ],
+    "tags": [
+      "himalayan",
+      "crossover",
+      "river",
+      "camping",
+      "cultural"
+    ],
+    "permits": "Access to some Kashmir treks has been temporarily suspended at times; confirm with your organizer before planning.",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "chadar",
+    "name": "Chadar Trek",
+    "state": "Ladakh",
+    "region": "Zanskar",
+    "mountain_range": "Zanskar range",
+    "difficulty": "difficult",
+    "duration_days": 9,
+    "max_altitude_m": 3400,
+    "distance_km": 105,
+    "best_months": [
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "base_camp": "Chilling",
+    "nearest_airport": "Kushok Bakula Rimpochee Airport, Leh",
+    "nearest_railway": "Jammu Tawi",
+    "summary": "A winter walk on the frozen Zanskar river, with ice and cold canyons.",
+    "description": "Trekkers walk on the ice of the Zanskar river for about 100 km, camping in caves and tents beside the gorge. Temperatures can plunge below -20 C. Ice and access conditions vary, so confirm current status before booking.",
+    "highlights": [
+      "Frozen river walking",
+      "Nerak waterfall",
+      "Ice caves"
+    ],
+    "tags": [
+      "himalayan",
+      "river",
+      "winter",
+      "snow",
+      "camping",
+      "high-altitude"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "markha-valley",
+    "name": "Markha Valley",
+    "state": "Ladakh",
+    "region": "Leh",
+    "mountain_range": "Zanskar range",
+    "difficulty": "moderate",
+    "duration_days": 8,
+    "max_altitude_m": 5260,
+    "distance_km": 80,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon"
+    ],
+    "base_camp": "Chilling",
+    "nearest_airport": "Kushok Bakula Rimpochee Airport, Leh",
+    "nearest_railway": "Jammu Tawi",
+    "summary": "A Ladakh classic crossing stark valleys, villages and the Kongmaru La pass.",
+    "description": "The trek follows the Markha river through Hemis National Park, with homestay and camp options. It crosses Kongmaru La at 5,260 m before descending to Shang Sumdo. The scenery is rugged and the culture rich.",
+    "highlights": [
+      "Kongmaru La",
+      "Villages and monasteries",
+      "Hemis National Park"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "cultural",
+      "river",
+      "camping",
+      "high-altitude"
+    ],
+    "permits": "Hemis National Park entry fee is collected en route",
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "stok-kangri",
+    "name": "Stok Kangri",
+    "state": "Ladakh",
+    "region": "Leh",
+    "mountain_range": "Stok range",
+    "difficulty": "challenging",
+    "duration_days": 8,
+    "max_altitude_m": 6153,
+    "distance_km": 40,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Stok",
+    "nearest_airport": "Kushok Bakula Rimpochee Airport, Leh",
+    "nearest_railway": "Jammu Tawi",
+    "summary": "A 6,153 m trekking peak above Leh, closed to climbers since 2020 to let the Stok glacier recover.",
+    "description": "From Stok village the classic route followed Rumbak and Mankarmo to base camp, then a midnight push over scree and glacier to the summit. Local authorities closed the peak in 2020 to protect the glacier that feeds Stok village, and no reopening has been confirmed. Check with Leh authorities before planning; Markha Valley is a popular alternative.",
+    "highlights": [
+      "6,000 m summit",
+      "Rumbak village",
+      "Panorama of Karakoram"
+    ],
+    "tags": [
+      "himalayan",
+      "summit",
+      "high-altitude",
+      "glacier",
+      "camping"
+    ],
+    "permits": "Confirm current permit and closure rules with Leh authorities",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "lamayuru-alchi",
+    "name": "Lamayuru to Alchi",
+    "state": "Ladakh",
+    "region": "Leh",
+    "mountain_range": "Zanskar range",
+    "difficulty": "moderate",
+    "duration_days": 5,
+    "max_altitude_m": 3700,
+    "distance_km": 60,
+    "best_months": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct"
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "base_camp": "Lamayuru",
+    "nearest_airport": "Kushok Bakula Rimpochee Airport, Leh",
+    "nearest_railway": "Jammu Tawi",
+    "summary": "A Sham valley monastery-to-monastery trek through moonscapes and village homestays.",
+    "description": "The trail connects Lamayuru with Alchi via passes and village stays in the Sham region. Terrain is dry and dramatic, with lunar valleys and Buddhist gompas. It is an option for lower altitude trekking in Ladakh.",
+    "highlights": [
+      "Moon-like valleys",
+      "Monasteries",
+      "Village homestays"
+    ],
+    "tags": [
+      "himalayan",
+      "cultural",
+      "pass",
+      "river"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "rangdum-padum",
+    "name": "Rangdum to Padum",
+    "state": "Ladakh",
+    "region": "Zanskar, Kargil",
+    "mountain_range": "Zanskar range",
+    "difficulty": "moderate",
+    "duration_days": 5,
+    "max_altitude_m": 4400,
+    "distance_km": 80,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Rangdum",
+    "nearest_airport": "Kushok Bakula Rimpochee Airport, Leh",
+    "nearest_railway": "Jammu Tawi",
+    "summary": "A remote Zanskar crossing over Pensi La with glacier views.",
+    "description": "The trek leaves Rangdum monastery and climbs through Parkachik toward Pensi La, with the Drang Drung glacier in sight. It then descends to Padum through Zanskar villages. Tracks are exposed, so go prepared.",
+    "highlights": [
+      "Drang Drung glacier",
+      "Pensi La",
+      "Zanskar villages"
+    ],
+    "tags": [
+      "himalayan",
+      "pass",
+      "glacier",
+      "cultural",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "goechala",
+    "name": "Goechala",
+    "state": "Sikkim",
+    "region": "West Sikkim",
+    "mountain_range": "Kanchenjunga range",
+    "difficulty": "difficult",
+    "duration_days": 11,
+    "max_altitude_m": 4940,
+    "distance_km": 90,
+    "best_months": [
+      "Apr",
+      "May",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "base_camp": "Yuksom",
+    "nearest_airport": "Pakyong Airport / Bagdogra Airport",
+    "nearest_railway": "New Jalpaiguri",
+    "summary": "A grand Kanchenjunga trek through rhododendron forests to the pass beneath the third highest peak.",
+    "description": "From Yuksom the trail climbs through rhododendron forest to Dzongri and Thansing, then the pre-dawn push to Goecha La. The view of Kanchenjunga's east face at sunrise is the highlight. Weather windows are best in spring and autumn.",
+    "highlights": [
+      "Kanchenjunga sunrise",
+      "Samiti Lake",
+      "Rhododendron forests",
+      "Dzongri ridge"
+    ],
+    "tags": [
+      "himalayan",
+      "northeast",
+      "pass",
+      "high-altitude",
+      "camping",
+      "forest"
+    ],
+    "permits": "Permits obtained at Yuksom (Kanchenjunga National Park, Sikkim forest department)",
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "dzongri",
+    "name": "Dzongri",
+    "state": "Sikkim",
+    "region": "West Sikkim",
+    "mountain_range": "Kanchenjunga range",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 4170,
+    "distance_km": 45,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "base_camp": "Yuksom",
+    "nearest_airport": "Pakyong Airport / Bagdogra Airport",
+    "nearest_railway": "New Jalpaiguri",
+    "summary": "A shorter West Sikkim trek with close views of Pandim and Kanchenjunga.",
+    "description": "The route covers forest to Sachen, Bakhim and Phedang before the Dzongri ridge. Sunrise from Dzongri Top lights Pandim, Kabru and Kanchenjunga. It is a good alternative when Goechala is too long.",
+    "highlights": [
+      "Dzongri Top sunrise",
+      "Rhododendron bloom",
+      "Pandim view"
+    ],
+    "tags": [
+      "himalayan",
+      "northeast",
+      "forest",
+      "camping",
+      "high-altitude"
+    ],
+    "permits": "Permits obtained at Yuksom (Kanchenjunga National Park)",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "sandakphu-phalut",
+    "name": "Sandakphu Phalut",
+    "state": "West Bengal",
+    "region": "Darjeeling",
+    "mountain_range": "Singalila Ridge",
+    "difficulty": "moderate",
+    "duration_days": 6,
+    "max_altitude_m": 3636,
+    "distance_km": 60,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "base_camp": "Maneybhanjan",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "New Jalpaiguri",
+    "summary": "A ridge walk along the Nepal border with views of four of the world's five highest peaks.",
+    "description": "The route follows the Singalila ridge from Maneybhanjan past Tumling, Kalipokhri and Sandakphu to Phalut. On clear days Everest, Kanchenjunga, Lhotse and Makalu appear in one sweep. Trails are mostly gentle but long.",
+    "highlights": [
+      "Everest-Kanchenjunga panorama",
+      "Singalila National Park",
+      "Rhododendron forests"
+    ],
+    "tags": [
+      "himalayan",
+      "forest",
+      "summit",
+      "camping"
+    ],
+    "permits": "Singalila National Park entry fee; hired guide is mandatory",
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "green-lake",
+    "name": "Green Lake Trek",
+    "state": "Sikkim",
+    "region": "North Sikkim",
+    "mountain_range": "Kanchenjunga range",
+    "difficulty": "challenging",
+    "duration_days": 11,
+    "max_altitude_m": 5050,
+    "distance_km": 100,
+    "best_months": [
+      "Apr",
+      "May",
+      "Oct",
+      "Nov"
+    ],
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "base_camp": "Lachen",
+    "nearest_airport": "Pakyong Airport / Bagdogra Airport",
+    "nearest_railway": "New Jalpaiguri",
+    "summary": "A remote glacial-lake expedition at the foot of Kanchenjunga's northern face.",
+    "description": "The route follows the Zemu glacier valley through high-altitude terrain beyond Lachen. The Green Lake lies amid moraines beneath Kanchenjunga. It is remote, cold and logistically complex.",
+    "highlights": [
+      "Kanchenjunga north face",
+      "Zemu glacier",
+      "Remote alpine terrain"
+    ],
+    "tags": [
+      "himalayan",
+      "northeast",
+      "glacier",
+      "lakes",
+      "high-altitude",
+      "camping"
+    ],
+    "permits": "Protected-area permits arranged via registered Sikkim operators; confirm current rules",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "varsey-rhododendron",
+    "name": "Varsey Rhododendron Trek",
+    "state": "Sikkim",
+    "region": "West Sikkim",
+    "mountain_range": "Singalila Ridge",
+    "difficulty": "easy",
+    "duration_days": 3,
+    "max_altitude_m": 3100,
+    "distance_km": 20,
+    "best_months": [
+      "Mar",
+      "Apr",
+      "May"
+    ],
+    "seasons": [
+      "spring"
+    ],
+    "base_camp": "Hilley",
+    "nearest_airport": "Bagdogra Airport",
+    "nearest_railway": "New Jalpaiguri",
+    "summary": "A gentle spring walk through a sanctuary of blooming rhododendrons.",
+    "description": "The trail from Hilley follows the Singalila ridge through rhododendron groves in full bloom in April. Views of Kanchenjunga and the Singalila range appear on clear days. It is suited to beginners and families.",
+    "highlights": [
+      "Rhododendron bloom",
+      "Ridge views",
+      "Easy gradients"
+    ],
+    "tags": [
+      "himalayan",
+      "northeast",
+      "forest",
+      "beginner",
+      "family"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "dzukou-valley",
+    "name": "Dzukou Valley",
+    "state": "Nagaland",
+    "region": "Kohima",
+    "mountain_range": "Naga Hills",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 2452,
+    "distance_km": 18,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "summer",
+      "monsoon",
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Viswema",
+    "nearest_airport": "Dimapur Airport",
+    "nearest_railway": "Dimapur",
+    "summary": "A misty valley of wildflowers and rolling hills in the Naga Hills.",
+    "description": "Starting at Viswema, the steep climb eases into a huge bowl of grass and flowers. Monsoon brings the Dzukou lily bloom. Weather is changeable, with fog and rain common.",
+    "highlights": [
+      "Valley of lilies",
+      "Rolling green hills",
+      "Stone cabin camps"
+    ],
+    "tags": [
+      "northeast",
+      "meadows",
+      "camping",
+      "monsoon"
+    ],
+    "permits": "Inner Line Permit required for non-Nagaland Indians",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "nongriat-living-root-bridges",
+    "name": "Nongriat Living Root Bridges",
+    "state": "Meghalaya",
+    "region": "East Khasi Hills",
+    "mountain_range": "Khasi Hills",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1300,
+    "distance_km": 12,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Tyrna",
+    "nearest_airport": "Shillong Airport / Guwahati Airport",
+    "nearest_railway": "Guwahati",
+    "summary": "A trek down thousands of steps to living root bridges in the Khasi forests.",
+    "description": "The path from Tyrna descends through jungle to the double-decker living root bridge and Rainbow Falls. The bridges are grown by Khasi communities over decades from rubber fig roots. The return climb is long and stair-heavy.",
+    "highlights": [
+      "Double-decker root bridge",
+      "Rainbow Falls",
+      "Khasi villages"
+    ],
+    "tags": [
+      "northeast",
+      "waterfall",
+      "forest",
+      "cultural",
+      "river"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "phawngpui-blue-mountain",
+    "name": "Phawngpui Blue Mountain",
+    "state": "Mizoram",
+    "region": "Lawngtlai",
+    "mountain_range": "Mizo Hills",
+    "difficulty": "easy",
+    "duration_days": 2,
+    "max_altitude_m": 2157,
+    "distance_km": 10,
+    "best_months": [
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Vawmbuk",
+    "nearest_airport": "Lengpui Airport, Aizawl",
+    "nearest_railway": "Silchar",
+    "summary": "Mizoram's highest peak, a cloud-forest hike with orchids and rare birds.",
+    "description": "The trail climbs from Vawmbuk to the plateau at the top, rich in orchids and rhododendrons. The summit gives wide views into Myanmar and Bangladesh on clear days. It is quiet, remote and gentle.",
+    "highlights": [
+      "Mizoram's highest peak",
+      "Orchids and birds",
+      "Border views"
+    ],
+    "tags": [
+      "northeast",
+      "summit",
+      "forest",
+      "wildlife",
+      "beginner"
+    ],
+    "permits": "Inner Line Permit required for visitors from outside Mizoram",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "mechuka",
+    "name": "Mechuka Valley",
+    "state": "Arunachal Pradesh",
+    "region": "Shi Yomi",
+    "mountain_range": "Eastern Himalaya",
+    "difficulty": "easy",
+    "duration_days": 4,
+    "max_altitude_m": 1800,
+    "distance_km": 25,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Mechuka",
+    "nearest_airport": "Dibrugarh Airport",
+    "nearest_railway": "North Lakhimpur / Dibrugarh",
+    "summary": "A remote Siyom river valley walk past hanging bridges and monasteries.",
+    "description": "The trails weave around Mechuka's Siyom river, villages and the Samten Yongcha monastery. Prayer flags hang across pine-edged slopes. Roads and weather make logistics slow, so allow extra days.",
+    "highlights": [
+      "Siyom river",
+      "Samten Yongcha monastery",
+      "Hanging bridges"
+    ],
+    "tags": [
+      "northeast",
+      "cultural",
+      "river",
+      "forest"
+    ],
+    "permits": "Inner Line Permit required for Indian visitors",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "harishchandragad",
+    "name": "Harishchandragad",
+    "state": "Maharashtra",
+    "region": "Ahmednagar",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1424,
+    "distance_km": 14,
+    "best_months": [
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Pachnai",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Kalyan / Kasara",
+    "summary": "A rugged Sahyadri fort with the legendary Konkan Kada cliff and an ancient cave temple.",
+    "description": "The fort perches on a large plateau with the Kedareshwar cave, Taramati peak and the 600 m Konkan Kada cliff. Multiple routes lead up, from gentle to challenging. Sunrise and mist at the cliff-edge are a trekking rite of passage in Maharashtra.",
+    "highlights": [
+      "Konkan Kada cliff",
+      "Kedareshwar cave",
+      "Taramati peak"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "camping",
+      "monsoon",
+      "waterfall"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "kalsubai",
+    "name": "Kalsubai",
+    "state": "Maharashtra",
+    "region": "Ahmednagar",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1646,
+    "distance_km": 12,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Bari",
+    "nearest_airport": "Mumbai Airport / Nashik Airport",
+    "nearest_railway": "Igatpuri",
+    "summary": "The highest peak in Maharashtra, with iron ladders and sweeping valley views.",
+    "description": "From Bari village the stone path rises to a series of iron ladders and the summit shrine. Monsoon turns the slopes bright green and lays mist in the valleys. It makes a popular day trek from Mumbai and Pune.",
+    "highlights": [
+      "Highest peak of Maharashtra",
+      "Iron ladders",
+      "Summit shrine"
+    ],
+    "tags": [
+      "sahyadri",
+      "summit",
+      "monsoon",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "rajgad",
+    "name": "Rajgad",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1376,
+    "distance_km": 14,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Gunjavane",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Pune",
+    "summary": "The 'king of forts' and early capital of the Maratha empire.",
+    "description": "The fort has three machis (terraces) and the formidable Sanjeevani machi. Routes include the Gunjavane trail and the Padmavati machi path. It takes more than a day to explore thoroughly.",
+    "highlights": [
+      "Sanjeevani machi",
+      "Padmavati lake",
+      "Historic Maratha capital"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "camping",
+      "cultural"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "torna",
+    "name": "Torna",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1403,
+    "distance_km": 10,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Velhe",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Pune",
+    "summary": "The first fort captured by Shivaji, with commanding views over the Sahyadri ridge.",
+    "description": "The climb from Velhe passes Budhla machi and a succession of gates before the Zunjar machi. The summit reveals neighbouring forts like Rajgad and Raigad. It is a steady but steep ascent.",
+    "highlights": [
+      "Shivaji's first conquest",
+      "Zunjar machi",
+      "Panoramic views"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "cultural"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "lohagad",
+    "name": "Lohagad",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1033,
+    "distance_km": 6,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Malavli",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Malavli",
+    "summary": "An easy fort walk with the Vinchu Kada scorpion-tail ridge.",
+    "description": "The stone steps climb to a succession of four gates, then an open plateau with a Sufi shrine and old cisterns. The Vinchu Kada ridge juts out like a scorpion tail. Monsoon mist adds to the charm.",
+    "highlights": [
+      "Vinchu Kada ridge",
+      "Four fort gates",
+      "Beginner-friendly"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "visapur",
+    "name": "Visapur",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1084,
+    "distance_km": 5,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Malavli",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Malavli",
+    "summary": "A twin of Lohagad with rock-cut caves and monsoon waterfalls.",
+    "description": "The trail follows steep stone steps, with waterfalls cascading down the fort's slopes. Cisterns and rock-cut caves dot the plateau. Many combine it with Lohagad.",
+    "highlights": [
+      "Waterfall slopes",
+      "Plateau ruins",
+      "Combines with Lohagad"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "waterfall",
+      "beginner"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "ratangad",
+    "name": "Ratangad",
+    "state": "Maharashtra",
+    "region": "Ahmednagar",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1297,
+    "distance_km": 9,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Ratanwadi",
+    "nearest_airport": "Mumbai Airport / Nashik Airport",
+    "nearest_railway": "Igatpuri",
+    "summary": "A fort famed for its Nedhe (needle-eye) pinnacle and Amruteshwar temple.",
+    "description": "The route from Ratanwadi passes the Amruteshwar temple on the Pravara river, then a steep climb to the fort. The Nedhe rock formation has a natural hole in it. Views of Kalsubai range appear from the top.",
+    "highlights": [
+      "Nedhe needle-eye",
+      "Amruteshwar temple",
+      "Kalsubai range views"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "camping",
+      "monsoon"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "sandhan-valley",
+    "name": "Sandhan Valley",
+    "state": "Maharashtra",
+    "region": "Ahmednagar",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "difficult",
+    "duration_days": 2,
+    "max_altitude_m": 1000,
+    "distance_km": 10,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Samrad",
+    "nearest_airport": "Mumbai Airport / Nashik Airport",
+    "nearest_railway": "Igatpuri",
+    "summary": "A deep sandstone canyon known as the 'Valley of Shadows'.",
+    "description": "Trekkers descend through narrow rock passages into a dramatic canyon, with some rappelling and rope-assisted sections. It is best done in the dry season. Guides are strongly advised.",
+    "highlights": [
+      "Slot canyon",
+      "Rappelling sections",
+      "Valley of Shadows"
+    ],
+    "tags": [
+      "sahyadri",
+      "camping",
+      "river"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "andharban",
+    "name": "Andharban",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 900,
+    "distance_km": 7,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+    ],
+    "seasons": [
+      "monsoon"
+    ],
+    "base_camp": "Pimpri (Tamhini)",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Pune",
+    "summary": "A dense monsoon jungle trek through the dark forest of Tamhini Ghat.",
+    "description": "The trail drops into a thick forest whose canopy blocks most sunlight, with streams and waterfalls everywhere. The descent is slippery in rain. It is a popular day trek during the rainy season.",
+    "highlights": [
+      "Canopy forest",
+      "Waterfalls",
+      "Streams"
+    ],
+    "tags": [
+      "sahyadri",
+      "forest",
+      "monsoon",
+      "waterfall",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kalavantin-durg",
+    "name": "Kalavantin Durg",
+    "state": "Maharashtra",
+    "region": "Raigad",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 701,
+    "distance_km": 5,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Thakurwadi",
+    "nearest_airport": "Mumbai Airport",
+    "nearest_railway": "Panvel",
+    "summary": "A steep rock-cut staircase on a sheer pinnacle next to Prabalgad.",
+    "description": "The climb uses narrow steps carved into the cliff with a railing in places. The summit gives a bird's-eye view of the Panvel plain. Care is needed in wet weather.",
+    "highlights": [
+      "Rock-cut staircase",
+      "Prabalgad view",
+      "Cliff-edge views"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "raigad",
+    "name": "Raigad",
+    "state": "Maharashtra",
+    "region": "Raigad",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1356,
+    "distance_km": 6,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Pachad",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Mangaon",
+    "summary": "The capital fort of Shivaji, famous for its 1,737 steps and Maratha coronation site.",
+    "description": "The steps lead up to a wide plateau with the royal court, bazaar ruins and Shivaji's samadhi. A ropeway offers an alternative ascent. The fort is deeply historic.",
+    "highlights": [
+      "Coronation site",
+      "1,737 steps",
+      "Samadhi of Shivaji"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "cultural",
+      "monsoon",
+      "family"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "sinhagad",
+    "name": "Sinhagad",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1312,
+    "distance_km": 4,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Sinhagad Base",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Pune",
+    "summary": "A quick Pune-area fort hike with a famous battle history.",
+    "description": "The climb takes about two hours via a steep path through forest and rocky patches. The fort has a Tanaji memorial, gates and sweeping views of the Khadakwasla lake. Mist makes it special in monsoon.",
+    "highlights": [
+      "Tanaji memorial",
+      "Khadakwasla views",
+      "Fort gates"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "beginner",
+      "weekend",
+      "cultural"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "alang-madan-kulang",
+    "name": "Alang Madan Kulang",
+    "state": "Maharashtra",
+    "region": "Nashik",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "challenging",
+    "duration_days": 2,
+    "max_altitude_m": 1479,
+    "distance_km": 12,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Ambewadi",
+    "nearest_airport": "Mumbai Airport / Nashik Airport",
+    "nearest_railway": "Igatpuri",
+    "summary": "The toughest trio of forts in the Sahyadri, with exposed rock climbs.",
+    "description": "The trail covers the fort trio with vertical climbs, ladders and cliff-hugging paths. Some patches need rope and technical skills. Only experienced trekkers with guides should attempt it.",
+    "highlights": [
+      "Three forts in one trek",
+      "Exposed rock climbs",
+      "Remote jungle"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "peb-fort",
+    "name": "Peb Fort (Vikatgad)",
+    "state": "Maharashtra",
+    "region": "Raigad",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 700,
+    "distance_km": 6,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Neral",
+    "nearest_airport": "Mumbai Airport",
+    "nearest_railway": "Neral",
+    "summary": "A Matheran-side fort with a rock-cut cave and a precarious pinnacle.",
+    "description": "The trail climbs from Neral to a pass and then the ridge with the Vikatgad pinnacle called Nakhind. The cave on the plateau serves as a shelter. The climb on the final rock patch is exposed.",
+    "highlights": [
+      "Nakhind pinnacle",
+      "Rock cave",
+      "Neral approach"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "bhimashankar",
+    "name": "Bhimashankar",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1034,
+    "distance_km": 12,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Khandas",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Karjat",
+    "summary": "A jungle trek to the Jyotirlinga temple through the Shidi or Ganpati ghat.",
+    "description": "The path climbs through the Bhimashankar Wildlife Sanctuary, home to the Indian giant squirrel. The Ganpati Ghat route is gentler than Shidi Ghat. The temple is one of the twelve Jyotirlingas.",
+    "highlights": [
+      "Jyotirlinga temple",
+      "Wildlife sanctuary",
+      "Giant squirrel habitat"
+    ],
+    "tags": [
+      "sahyadri",
+      "forest",
+      "cultural",
+      "wildlife",
+      "monsoon"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "harihar-fort",
+    "name": "Harihar Fort",
+    "state": "Maharashtra",
+    "region": "Nashik",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1120,
+    "distance_km": 5,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Nirgudpada",
+    "nearest_airport": "Nashik Airport",
+    "nearest_railway": "Nashik Road",
+    "summary": "A fort with a nearly vertical rock-cut stair climbing at 80 degrees.",
+    "description": "A stone staircase is carved into the rock face in a spectacular, exposed ascent. The top has small caves, a temple and an old gateway. The climb is short but dramatic.",
+    "highlights": [
+      "80-degree rock staircase",
+      "Cliff-edge ascent",
+      "Hilltop views"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "korigad",
+    "name": "Korigad",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 923,
+    "distance_km": 5,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Peth Shahapur",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Lonavala",
+    "summary": "A well-preserved fort close to Lonavala with a wide fortification.",
+    "description": "The short trail climbs to a plateau ringed by walls and gates, with a lake and temple. Cannons rest on the ramparts. Views extend over Aamby Valley.",
+    "highlights": [
+      "Preserved ramparts",
+      "Lake and temple",
+      "Beginner-friendly"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "tikona",
+    "name": "Tikona",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1070,
+    "distance_km": 5,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Tikona Peth",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Lonavala",
+    "summary": "A pyramid-shaped hill fort above Pawna Lake.",
+    "description": "The route climbs steps carved into rock to a narrow gateway and a small cave. The pointed shape of the fort makes it easy to recognise. Pawna Lake views reward the climb.",
+    "highlights": [
+      "Pyramid-shaped fort",
+      "Pawna Lake views",
+      "Rock steps"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "mahuli-fort",
+    "name": "Mahuli Fort",
+    "state": "Maharashtra",
+    "region": "Thane",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 860,
+    "distance_km": 8,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Asangaon",
+    "nearest_airport": "Mumbai Airport",
+    "nearest_railway": "Asangaon",
+    "summary": "A three-peak fort near Mumbai with rock walls and waterfalls.",
+    "description": "The fort area includes Mahuligad, Bhandargad and Palasgad, with the Navra-Navri pinnacles. The climb has some steep scrambles. It is popular for monsoon and night treks.",
+    "highlights": [
+      "Navra-Navri pinnacles",
+      "Three summits",
+      "Waterfalls"
+    ],
+    "tags": [
+      "sahyadri",
+      "fort",
+      "monsoon",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "naneghat",
+    "name": "Naneghat",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 850,
+    "distance_km": 8,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Vaiyal",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Kalyan",
+    "summary": "An ancient trade pass with a Satavahana-era cave and a thumb-shaped pinnacle.",
+    "description": "The old pass links the Konkan with the Deccan, with a large cave of inscriptions. The famous Jeevdhan Fort stands beside it with its tall pinnacle. Monsoon winds can be fierce at the pass.",
+    "highlights": [
+      "Ancient trade route",
+      "Satavahana inscriptions",
+      "Jeevdhan pinnacle"
+    ],
+    "tags": [
+      "sahyadri",
+      "cultural",
+      "monsoon",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "dhak-bahiri",
+    "name": "Dhak Bahiri",
+    "state": "Maharashtra",
+    "region": "Pune",
+    "mountain_range": "Sahyadri (Western Ghats)",
+    "difficulty": "difficult",
+    "duration_days": 1,
+    "max_altitude_m": 820,
+    "distance_km": 10,
+    "best_months": [
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "monsoon",
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Jambhivali",
+    "nearest_airport": "Pune Airport",
+    "nearest_railway": "Karjat",
+    "summary": "A dramatic cave trek with a steep rock face and a waterfall inside the cave.",
+    "description": "The trail leads through dense forest to a large cave beneath a cliff, with a waterfall during the rains. A final narrow climb requires care. Guides are advised.",
+    "highlights": [
+      "Large cave with waterfall",
+      "Dense forest trail",
+      "Exposed climb"
+    ],
+    "tags": [
+      "sahyadri",
+      "monsoon",
+      "waterfall",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kudremukh",
+    "name": "Kudremukh",
+    "state": "Karnataka",
+    "region": "Chikmagalur",
+    "mountain_range": "Western Ghats",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1894,
+    "distance_km": 20,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Mullodi",
+    "nearest_airport": "Mangaluru Airport",
+    "nearest_railway": "Mangaluru",
+    "summary": "A grassland-and-shola ridge trek whose horse-face profile gives the peak its name.",
+    "description": "The trail climbs through open rolling grassland dotted with shola forest and streams. The summit looks across to the Arabian Sea on clear days. Monsoon is lush but leech-prone.",
+    "highlights": [
+      "Rolling grassland ridge",
+      "Shola forests",
+      "Horse-face peak"
+    ],
+    "tags": [
+      "western-ghats",
+      "forest",
+      "wildlife",
+      "camping",
+      "weekend"
+    ],
+    "permits": "Forest department entry permit (online booking)",
+    "cover_image_url": null,
+    "is_featured": true
+  },
+  {
+    "slug": "kumara-parvatha",
+    "name": "Kumara Parvatha",
+    "state": "Karnataka",
+    "region": "Kodagu",
+    "mountain_range": "Western Ghats",
+    "difficulty": "difficult",
+    "duration_days": 2,
+    "max_altitude_m": 1712,
+    "distance_km": 26,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Kukke Subramanya",
+    "nearest_airport": "Mangaluru Airport",
+    "nearest_railway": "Subrahmanya Road",
+    "summary": "One of Karnataka's toughest treks, with a rocky final ascent and grassy ridges.",
+    "description": "The trek begins at Kukke Subramanya temple, goes through Bidirukodi forest and Girigadde base, and climbs steeply to Pushpagiri's neighbouring peak. The terrain is steep and rocky. Views of the Western Ghats unfold at the summit.",
+    "highlights": [
+      "Steep rocky climb",
+      "Pushpagiri Wildlife Sanctuary",
+      "Sunset camp at Girigadde"
+    ],
+    "tags": [
+      "western-ghats",
+      "forest",
+      "summit",
+      "camping"
+    ],
+    "permits": "Forest permit for Pushpagiri Wildlife Sanctuary",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "tadiandamol",
+    "name": "Tadiandamol",
+    "state": "Karnataka",
+    "region": "Kodagu",
+    "mountain_range": "Western Ghats",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1748,
+    "distance_km": 12,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Kakkabe",
+    "nearest_airport": "Mangaluru Airport",
+    "nearest_railway": "Mysuru",
+    "summary": "Coorg's highest peak, with sweeping grassland views.",
+    "description": "The walk starts at Kakkabe, passes the Nalknad Palace, and climbs grassy slopes to the summit. Mist often wraps the ridge. The trail is clear and good for first-time Ghat trekkers.",
+    "highlights": [
+      "Highest peak of Kodagu",
+      "Open grassland",
+      "Nalknad palace"
+    ],
+    "tags": [
+      "western-ghats",
+      "summit",
+      "forest",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "mullayanagiri",
+    "name": "Mullayanagiri",
+    "state": "Karnataka",
+    "region": "Chikmagalur",
+    "mountain_range": "Baba Budangiri range",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1930,
+    "distance_km": 6,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Sarpadhari",
+    "nearest_airport": "Bengaluru Airport",
+    "nearest_railway": "Chikmagalur / Kadur",
+    "summary": "The highest peak in Karnataka, a short climb with a temple on top.",
+    "description": "About 500 steps lead to a small temple on the summit, with views over coffee estates and the Baba Budan range. Sunrise and mist are the highlights. It is easy and family friendly.",
+    "highlights": [
+      "Highest peak of Karnataka",
+      "Coffee-estate views",
+      "Sunrise"
+    ],
+    "tags": [
+      "western-ghats",
+      "summit",
+      "family",
+      "beginner"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "netravati-peak",
+    "name": "Netravati Peak",
+    "state": "Karnataka",
+    "region": "Dakshina Kannada",
+    "mountain_range": "Western Ghats",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1520,
+    "distance_km": 12,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Kurinjal",
+    "nearest_airport": "Mangaluru Airport",
+    "nearest_railway": "Mangaluru",
+    "summary": "A grassy peak trek above the source of the Netravati river.",
+    "description": "The trail runs through grassland and rocky ridge to the peak. Views reach the Arabian Sea and Kudremukh range. Forest permission may be needed.",
+    "highlights": [
+      "Source of Netravati river",
+      "Open grassland",
+      "Sea views"
+    ],
+    "tags": [
+      "western-ghats",
+      "summit",
+      "forest",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "skandagiri",
+    "name": "Skandagiri",
+    "state": "Karnataka",
+    "region": "Chikkaballapur",
+    "mountain_range": "Nandi Hills range",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1350,
+    "distance_km": 8,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Papagni Mutt",
+    "nearest_airport": "Bengaluru Airport",
+    "nearest_railway": "Chikkaballapur",
+    "summary": "A famous pre-dawn trek above a sea of clouds near Bengaluru.",
+    "description": "Hikers climb in the early hours to catch the sunrise above cloud-filled valleys. The path has rocky stairs and a final steep stretch. Camping at the top is regulated, so check current rules.",
+    "highlights": [
+      "Sunrise above clouds",
+      "Fort ruins",
+      "Easy drive from Bengaluru"
+    ],
+    "tags": [
+      "western-ghats",
+      "weekend",
+      "beginner"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "brahmagiri",
+    "name": "Brahmagiri",
+    "state": "Karnataka",
+    "region": "Kodagu",
+    "mountain_range": "Western Ghats",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1607,
+    "distance_km": 10,
+    "best_months": [
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Irpu",
+    "nearest_airport": "Mysuru Airport",
+    "nearest_railway": "Mysuru",
+    "summary": "A Kodagu-Kerala border ridge trek through Brahmagiri Wildlife Sanctuary.",
+    "description": "The trail climbs through shola forest and grasslands toward the Kerala border. Wildlife such as elephants and gaur occasionally appear. Entry is regulated by the forest department.",
+    "highlights": [
+      "Wildlife sanctuary",
+      "Grassy ridge",
+      "Border views"
+    ],
+    "tags": [
+      "western-ghats",
+      "forest",
+      "wildlife"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kodachadri",
+    "name": "Kodachadri",
+    "state": "Karnataka",
+    "region": "Shivamogga",
+    "mountain_range": "Western Ghats",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1343,
+    "distance_km": 20,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Kollur",
+    "nearest_airport": "Mangaluru Airport",
+    "nearest_railway": "Kundapura",
+    "summary": "A beautiful trek to a mountain shrine above misty forests near Mookambika.",
+    "description": "The trek winds through forest and rocky outcrops to a hilltop with a shrine and sunset-view spot. Jeep rides are possible. The area is a biodiversity hotspot.",
+    "highlights": [
+      "Hilltop shrine",
+      "Sunset viewpoint",
+      "Hidden Falls"
+    ],
+    "tags": [
+      "western-ghats",
+      "forest",
+      "summit"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "chembra-peak",
+    "name": "Chembra Peak",
+    "state": "Kerala",
+    "region": "Wayanad",
+    "mountain_range": "Western Ghats",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 2100,
+    "distance_km": 8,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Meppadi",
+    "nearest_airport": "Kozhikode Airport",
+    "nearest_railway": "Kozhikode",
+    "summary": "Wayanad's highest peak, with a heart-shaped lake on the way up.",
+    "description": "The trail climbs through tea estates and grassy slopes to the Heart Lake and the top. A forest permit is required. The area was affected by landslides in 2024, so confirm access.",
+    "highlights": [
+      "Heart-shaped lake",
+      "Tea estate approach",
+      "Wayanad's top"
+    ],
+    "tags": [
+      "western-ghats",
+      "summit",
+      "lakes",
+      "forest"
+    ],
+    "permits": "Forest department permit via DTPC Wayanad; confirm current access",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "meesapulimala",
+    "name": "Meesapulimala",
+    "state": "Kerala",
+    "region": "Idukki",
+    "mountain_range": "Western Ghats",
+    "difficulty": "difficult",
+    "duration_days": 3,
+    "max_altitude_m": 2640,
+    "distance_km": 20,
+    "best_months": [
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "base_camp": "Rhodo Valley",
+    "nearest_airport": "Cochin Airport",
+    "nearest_railway": "Aluva / Ernakulam",
+    "summary": "One of Kerala's highest trek peaks with rhododendron valleys and high grassland.",
+    "description": "The route begins near Munnar and climbs through grassland, rhododendron forest and rocky ridges to the summit. Book through the forest department. Cold nights and wind are typical.",
+    "highlights": [
+      "Rhododendron valley",
+      "High grassland",
+      "Munnar views"
+    ],
+    "tags": [
+      "western-ghats",
+      "summit",
+      "camping",
+      "forest"
+    ],
+    "permits": "Kerala Forest Department booking required",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "agasthyarkoodam",
+    "name": "Agasthyarkoodam",
+    "state": "Kerala",
+    "region": "Thiruvananthapuram",
+    "mountain_range": "Western Ghats",
+    "difficulty": "difficult",
+    "duration_days": 3,
+    "max_altitude_m": 1868,
+    "distance_km": 26,
+    "best_months": [
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Bonaccord",
+    "nearest_airport": "Thiruvananthapuram Airport",
+    "nearest_railway": "Thiruvananthapuram",
+    "summary": "A rain-forest trek to the Agastya peak, open for only a short season.",
+    "description": "The trail climbs from Bonaccord through tropical forest and grasslands to the summit. A pilgrimage site, it requires online booking from the Kerala Forest Department. Trekking is open only during January to March.",
+    "highlights": [
+      "Biosphere reserve",
+      "Pilgrimage peak",
+      "Medicinal forest"
+    ],
+    "tags": [
+      "western-ghats",
+      "forest",
+      "summit",
+      "wildlife"
+    ],
+    "permits": "Kerala Forest Department online booking; open only Jan–Mar",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kolukkumalai",
+    "name": "Kolukkumalai",
+    "state": "Tamil Nadu",
+    "region": "Theni",
+    "mountain_range": "Western Ghats",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 2160,
+    "distance_km": 10,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Suryanelli",
+    "nearest_airport": "Madurai Airport",
+    "nearest_railway": "Theni / Bodinayakanur",
+    "summary": "One of the highest tea estates, with sunrise over a sea of clouds.",
+    "description": "The trail climbs from Suryanelli through tea plantations near the Tamil Nadu border. Jeep rides are common. The sunrise views are the main attraction.",
+    "highlights": [
+      "Highest-altitude tea estate",
+      "Sunrise above clouds",
+      "Easy walk"
+    ],
+    "tags": [
+      "western-ghats",
+      "weekend",
+      "beginner"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "kurangani-top-station",
+    "name": "Kurangani to Top Station",
+    "state": "Tamil Nadu",
+    "region": "Theni",
+    "mountain_range": "Western Ghats",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1880,
+    "distance_km": 12,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Kurangani",
+    "nearest_airport": "Madurai Airport",
+    "nearest_railway": "Bodinayakanur",
+    "summary": "A hill trek linking Kurangani with the Top Station viewpoint.",
+    "description": "The route climbs from Kurangani village through forest and tea estates toward the Top Station ridge. Views stretch across the Kerala-Tamil Nadu border. The path is steep in places.",
+    "highlights": [
+      "Forest and tea trail",
+      "Top Station viewpoint",
+      "Border ridge"
+    ],
+    "tags": [
+      "western-ghats",
+      "forest",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "vellingiri",
+    "name": "Vellingiri Hills",
+    "state": "Tamil Nadu",
+    "region": "Coimbatore",
+    "mountain_range": "Nilgiri hills",
+    "difficulty": "difficult",
+    "duration_days": 2,
+    "max_altitude_m": 1778,
+    "distance_km": 12,
+    "best_months": [
+      "Feb",
+      "Mar",
+      "Apr",
+      "May"
+    ],
+    "seasons": [
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Poondi",
+    "nearest_airport": "Coimbatore Airport",
+    "nearest_railway": "Coimbatore",
+    "summary": "The 'Himalayas of the South' – seven hills with a Shiva temple at the top.",
+    "description": "Pilgrims climb seven hills for the Vellingiri Andavar temple. Terrain is steep and rocky, with a final cold stretch. The trek is typically open only in the dry months.",
+    "highlights": [
+      "Seven-hill climb",
+      "Hilltop temple",
+      "Cold windy summit"
+    ],
+    "tags": [
+      "western-ghats",
+      "cultural",
+      "summit",
+      "forest"
+    ],
+    "permits": "Temple/forest entry rules apply; open Feb–May",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "mukurthi-peak",
+    "name": "Mukurthi Peak",
+    "state": "Tamil Nadu",
+    "region": "Nilgiris",
+    "mountain_range": "Nilgiri hills",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 2554,
+    "distance_km": 16,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Mukurthi National Park",
+    "nearest_airport": "Coimbatore Airport",
+    "nearest_railway": "Mettupalayam",
+    "summary": "The Nilgiris' high peak inside Mukurthi National Park.",
+    "description": "The trail passes Nilgiri tahr habitat on open grassland. Weather is cold and windy. Entry requires approvals from the forest department.",
+    "highlights": [
+      "Nilgiri tahr habitat",
+      "Open shola grassland",
+      "Windy summit"
+    ],
+    "tags": [
+      "western-ghats",
+      "wildlife",
+      "summit",
+      "forest"
+    ],
+    "permits": "Tamil Nadu Forest Department permission required",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "banasura-hill",
+    "name": "Banasura Hill",
+    "state": "Kerala",
+    "region": "Wayanad",
+    "mountain_range": "Western Ghats",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 2073,
+    "distance_km": 6,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Padinjarathara",
+    "nearest_airport": "Kozhikode Airport",
+    "nearest_railway": "Kozhikode",
+    "summary": "A grassy Wayanad hill beside India's largest earthen dam.",
+    "description": "The trail climbs from Banasura Sagar to the summit with views over the reservoir and rolling hills. It is short and suited to families. Check local access conditions after monsoon.",
+    "highlights": [
+      "Banasura Sagar views",
+      "Grassy hills",
+      "Family friendly"
+    ],
+    "tags": [
+      "western-ghats",
+      "family",
+      "beginner",
+      "weekend"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "dudhsagar",
+    "name": "Dudhsagar Falls",
+    "state": "Goa",
+    "region": "South Goa",
+    "mountain_range": "Western Ghats",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 310,
+    "distance_km": 11,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Kulem",
+    "nearest_airport": "Dabolim Airport",
+    "nearest_railway": "Kulem",
+    "summary": "A walk to one of India's tallest tiered waterfalls on the Goa-Karnataka border.",
+    "description": "The trail leads through forest to the four-tier falls. Access rules, including the railway-track route, have changed, so confirm current options. Monsoon brings the strongest flow.",
+    "highlights": [
+      "Four-tier waterfall",
+      "Forest trail",
+      "Rail viaduct"
+    ],
+    "tags": [
+      "western-ghats",
+      "waterfall",
+      "forest",
+      "monsoon",
+      "family"
+    ],
+    "permits": "Forest department entry (Bhagwan Mahavir Wildlife Sanctuary); confirm current rules",
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "mount-abu-guru-shikhar",
+    "name": "Guru Shikhar",
+    "state": "Rajasthan",
+    "region": "Sirohi",
+    "mountain_range": "Aravalli range",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1722,
+    "distance_km": 8,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Mount Abu",
+    "nearest_airport": "Udaipur Airport",
+    "nearest_railway": "Abu Road",
+    "summary": "A gentle climb to the highest point in the Aravallis.",
+    "description": "A short stair path leads to the Dattatreya temple at the peak. Views stretch across Mount Abu's forested plateau. Hill sights such as Nakki Lake and Dilwara Temples add variety.",
+    "highlights": [
+      "Highest point of Aravallis",
+      "Hilltop temple",
+      "Cool hill-station climate"
+    ],
+    "tags": [
+      "family",
+      "cultural",
+      "beginner"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "pachmarhi-dhupgarh",
+    "name": "Dhupgarh",
+    "state": "Madhya Pradesh",
+    "region": "Narmadapuram",
+    "mountain_range": "Satpura range",
+    "difficulty": "easy",
+    "duration_days": 1,
+    "max_altitude_m": 1352,
+    "distance_km": 6,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Pachmarhi",
+    "nearest_airport": "Bhopal Airport",
+    "nearest_railway": "Pipariya",
+    "summary": "Madhya Pradesh's highest point in the Satpura hills with sunset views.",
+    "description": "The path leads to a flat top where sunsets are famed across the Satpura valleys. Pachmarhi's caves, falls and forests offer many side hikes. Best from monsoon end through winter.",
+    "highlights": [
+      "Highest point of MP",
+      "Sunset views",
+      "Satpura forests"
+    ],
+    "tags": [
+      "forest",
+      "family",
+      "beginner",
+      "wildlife"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "girnar",
+    "name": "Girnar Hill",
+    "state": "Gujarat",
+    "region": "Junagadh",
+    "mountain_range": "Girnar hills",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1117,
+    "distance_km": 14,
+    "best_months": [
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Junagadh",
+    "nearest_airport": "Rajkot Airport",
+    "nearest_railway": "Junagadh",
+    "summary": "A pilgrimage staircase of nearly 10,000 steps to Jain and Hindu shrines.",
+    "description": "Pilgrims climb up through temple complexes of Jain, Hindu and Buddhist heritage. The steps are long, and most hike early to avoid heat. The higher peaks overlook Gir forest.",
+    "highlights": [
+      "9,999 steps",
+      "Jain and Hindu temples",
+      "Gir forest views"
+    ],
+    "tags": [
+      "cultural",
+      "summit",
+      "family"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "deomali",
+    "name": "Deomali",
+    "state": "Odisha",
+    "region": "Koraput",
+    "mountain_range": "Eastern Ghats",
+    "difficulty": "moderate",
+    "duration_days": 2,
+    "max_altitude_m": 1672,
+    "distance_km": 10,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb"
+    ],
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "base_camp": "Deomali village",
+    "nearest_airport": "Visakhapatnam Airport",
+    "nearest_railway": "Koraput",
+    "summary": "The highest peak in Odisha, set in the Eastern Ghats.",
+    "description": "The trek crosses tribal villages and open hills to the summit. Winter weather is cool and clear. Local guides help with routes.",
+    "highlights": [
+      "Highest peak of Odisha",
+      "Tribal villages",
+      "Eastern Ghats views"
+    ],
+    "tags": [
+      "forest",
+      "summit",
+      "cultural",
+      "camping"
+    ],
+    "permits": null,
+    "cover_image_url": null,
+    "is_featured": false
+  },
+  {
+    "slug": "parasnath-hill",
+    "name": "Parasnath Hill",
+    "state": "Jharkhand",
+    "region": "Giridih",
+    "mountain_range": "Parasnath hills",
+    "difficulty": "moderate",
+    "duration_days": 1,
+    "max_altitude_m": 1350,
+    "distance_km": 27,
+    "best_months": [
+      "Oct",
+      "Nov",
+      "Dec",
+      "Jan",
+      "Feb",
+      "Mar"
+    ],
+    "seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "base_camp": "Madhuban",
+    "nearest_airport": "Ranchi Airport",
+    "nearest_railway": "Parasnath / Giridih",
+    "summary": "A pilgrimage circuit of Jain shrines on Jharkhand's highest hill.",
+    "description": "Pilgrims walk a loop of about 27 km connecting numerous shrines along forested ridges. Many hike overnight for sunrise. It is a long but not technical walk.",
+    "highlights": [
+      "Jain pilgrim circuit",
+      "Forested ridges",
+      "Sunrise views"
+    ],
+    "tags": [
+      "cultural",
+      "forest",
+      "summit"
+    ],
     "permits": null,
     "cover_image_url": null,
     "is_featured": false
