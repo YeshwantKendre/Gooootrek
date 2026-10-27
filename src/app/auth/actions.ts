@@ -85,3 +85,34 @@ export async function signout() {
   }
   redirect("/");
 }
+
+/** Always reports success so the form can't be used to find out who has an account. */
+export async function requestPasswordReset(_prev: AuthState, formData: FormData): Promise<AuthState> {
+  if (!isSupabaseConfigured) return NOT_CONFIGURED;
+  const email = String(formData.get("email") ?? "").trim();
+  if (!/^\S+@\S+\.\S+$/.test(email)) return { error: "Please enter a valid email address." };
+  const supabase = await createClient();
+  const { error } = await supabase.auth.resetPasswordForEmail(email, {
+    redirectTo: `${await siteUrl()}/auth/callback?next=/reset-password`,
+  });
+  // Rate limits are the one error worth surfacing; anything else stays generic.
+  if (error?.status === 429) return { error: "Too many requests. Please wait a few minutes and try again." };
+  return { ok: true, message: `If an account exists for ${email}, we've sent a link to reset your password.` };
+}
+
+/** Sets a new password for the signed-in user (after following the reset link). */
+export async function updatePassword(_prev: AuthState, formData: FormData): Promise<AuthState> {
+  if (!isSupabaseConfigured) return NOT_CONFIGURED;
+  const password = String(formData.get("password") ?? "");
+  const confirm = String(formData.get("confirm") ?? "");
+  if (password.length < 6) return { error: "Password must be at least 6 characters." };
+  if (password !== confirm) return { error: "The two passwords don't match." };
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "Your reset link has expired. Please request a new one." };
+  const { error } = await supabase.auth.updateUser({ password });
+  if (error) return { error: error.message };
+  redirect("/dashboard?password=updated");
+}

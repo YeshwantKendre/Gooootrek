@@ -28,7 +28,12 @@ export default function LoginForm({ next, configured, urlError }: { next: string
             <input id="email" name="email" type="email" autoComplete="email" required className="input" placeholder="you@example.com" />
           </div>
           <div>
-            <label htmlFor="password" className="label">Password</label>
+            <div className="mb-1 flex items-baseline justify-between">
+              <label htmlFor="password" className="text-sm font-medium text-ink">Password</label>
+              <Link href="/forgot-password" className="text-xs font-semibold text-sage-700 underline-offset-2 hover:underline">
+                Forgot password?
+              </Link>
+            </div>
             <input id="password" name="password" type="password" autoComplete="current-password" required className="input" />
           </div>
           {state.error && (

@@ -12,7 +12,8 @@ function Tile({ label, value, tone }: { label: string; value: string | number; t
   );
 }
 
-export default async function DashboardOverview() {
+export default async function DashboardOverview({ searchParams }: { searchParams: Promise<{ password?: string }> }) {
+  const { password } = await searchParams;
   const session = await requireSession();
   const { role } = session.profile;
   const supabase = await createClient();
@@ -77,6 +78,11 @@ export default async function DashboardOverview() {
 
   return (
     <div>
+      {password === "updated" && (
+        <p role="status" className="mb-4 rounded-xl bg-sage-50 px-4 py-3 text-sm font-medium text-sage-700">
+          Your password has been updated.
+        </p>
+      )}
       <h1 className="text-2xl font-bold sm:text-3xl">Hello, {first} 👋</h1>
       <p className="mt-1 text-muted">Here is what is happening on your {role} dashboard.</p>
       <div className="mt-6 grid grid-cols-2 gap-4 lg:grid-cols-3">
