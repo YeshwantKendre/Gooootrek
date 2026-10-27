@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/*
+ * Gooootrek pastel palette. Use these as Tailwind classes, e.g. bg-sage-100,
+ * text-ink, border-lavender-300. Primary action color is sage-700.
+ */
+@theme {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream: #fbf8f3;
+  --color-paper: #ffffff;
+  --color-ink: #26332e;
+  --color-muted: #66756f;
+  --color-line: #e7e2d9;
+
+  --color-sage-50: #f2f8f4;
+  --color-sage-100: #dcede3;
+  --color-sage-200: #c3e2cf;
+  --color-sage-300: #a8d5ba;
+  --color-sage-500: #6fa98a;
+  --color-sage-700: #3e6b55;
+  --color-sage-900: #23402f;
+
+  --color-lavender-50: #f6f3fc;
+  --color-lavender-100: #e9e2f7;
+  --color-lavender-300: #c3b4e6;
+  --color-lavender-500: #9480cf;
+  --color-lavender-700: #5f4a9e;
+
+  --color-peach-50: #fff6f0;
+  --color-peach-100: #fde4d3;
+  --color-peach-300: #f6bd9a;
+  --color-peach-500: #e8956a;
+  --color-peach-700: #a75a31;
+
+  --color-sky-50: #f1f8fd;
+  --color-sky-100: #dbedf8;
+  --color-sky-300: #a3cfea;
+  --color-sky-500: #5fa4cf;
+  --color-sky-700: #2d6890;
+
+  --color-butter-100: #fbf1c9;
+  --color-butter-300: #f2dc8a;
+  --color-butter-700: #8a6d12;
+
+  --color-night: #2b3531;
+  --color-night-soft: #3a4641;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-sage-700 px-5 py-2 text-sm font-semibold text-white transition hover:bg-sage-900 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-sage-500 bg-white px-5 py-2 text-sm font-semibold text-sage-700 transition hover:bg-sage-50 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-muted transition hover:bg-sage-50 hover:text-ink;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-sage-300 bg-white px-3 py-1 text-xs font-medium text-sage-700 transition hover:bg-sage-50;
+  }
+  .chip-active {
+    @apply border-sage-700 bg-sage-700 text-white hover:bg-sage-700;
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-paper shadow-sm;
+  }
+  .input {
+    @apply w-full rounded-xl border border-line bg-white px-3 py-2 text-sm text-ink outline-none transition placeholder:text-muted/70 focus:border-sage-500 focus:ring-2 focus:ring-sage-100;
+  }
+  .label {
+    @apply mb-1 block text-sm font-medium text-ink;
+  }
+}
